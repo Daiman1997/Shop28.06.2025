@@ -5,297 +5,402 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
     <header class="header">
-        <div class="header__navigation">
-            <div class="header__logo-container">
-                <a href="#" class="header__logo">Icon</a>
-            </div>
-            <div class="header__nav">
-                <nav class="header__nav-links">
-                    <ul class="header__nav-list">
-                        <li class="header__nav-item"><a class="header__nav-link" href="#">О нас</a></li>
-                        <li class="header__nav-item"><a class="header__nav-link" href="#">Производители</a></li>
-                        <li class="header__nav-item"><a class="header__nav-link" href="#">Гарантии и возврат</a></li>
-                        <li class="header__nav-item"><a class="header__nav-link" href="#">Доставка</a></li>
-                        <li class="header__nav-item"><a class="header__nav-link" href="#">Оплата</a></li>
-                        <li class="header__nav-item"><a class="header__nav-link" href="#">Контакты</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="header__auth">
-                <div class="header__auth-icon">
-                    <a class="header__icon-link" href="#">Icon</a>
+        <div class="container border-bottom">
+            <div class="header__navigation">
+                <div class="header__nav">
+                    <div class="header__logo-container">
+                        <a href="#" class="header__logo">
+                            <img src="/image/logo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <nav class="header__nav-links">
+                        <ul class="header__nav-list">
+                            <li class="header__nav-item"><a class="header__nav-link" href="#">О нас</a></li>
+                            <li class="header__nav-item"><a class="header__nav-link" href="#">Производители</a></li>
+                            <li class="header__nav-item"><a class="header__nav-link" href="#">Гарантии и возврат</a>
+                            </li>
+                            <li class="header__nav-item"><a class="header__nav-link" href="#">Доставка</a></li>
+                            <li class="header__nav-item"><a class="header__nav-link" href="#">Оплата</a></li>
+                            <li class="header__nav-item"><a class="header__nav-link" href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
                 </div>
-                <div class="header__auth-links">
-                    <a class="header__auth-link" href="#">Вход</a>
-                    <span class="header__auth-span">/</span>
-                    <a class="header__auth-link" href="#">Регистрация</a>
+                <div class="header__auth">
+                    <div class="header__auth-icon">
+                        <a class="header__icon-link" href="#">
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.875 24.375C9.79167 23.125 11.6667 22.0833 12.5 21.25C13.75 20 10 20 10 13.75C10 9.58333 11.6667 7.5 15 7.5C18.3333 7.5 20 9.58333 20 13.75C20 20 16.25 20 17.5 21.25C18.3333 22.0833 20.2083 23.125 23.125 24.375"
+                                    stroke="#6F7682" stroke-width="2" stroke-linecap="round" />
+                                <path
+                                    d="M15 27.5C21.9036 27.5 27.5 21.9036 27.5 15C27.5 8.09644 21.9036 2.5 15 2.5C8.09644 2.5 2.5 8.09644 2.5 15C2.5 21.9036 8.09644 27.5 15 27.5Z"
+                                    stroke="#6F7682" stroke-width="2" stroke-linecap="square" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="header__auth-links">
+                        <a class="header__auth-link" href="#">Вход</a>
+                        <span class="header__auth-span">/</span>
+                        <a class="header__auth-link" href="#">Регистрация</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="header__shop-panel">
-            <div class="header__shop-elem">
-                <a href="#">Каталог товаров</a>
-            </div>
-            <div class="header__shop-elem">
-                <input type="text" class="search__input" placeholder="Поиск товаров и брендов" />
-                <button class="search__button">Найти</button>
-            </div>
-            <div class="header__shop-elem">
-                <p>8-800-000-00-00</p>
-                <a class="color-green" href="#">Вам перезвонить?</a>
-            </div>
-            <div class="header__shop-elem">
-                <a href="#">Избранное</a>
-                <a href="#">Сравнение</a>
-                <a href="#">Корзина</a>
+        <div class="container">
+            <div class="header__shop-panel">
+                <div class="header__shop-left">
+                    <div class="header__shop-catalog">
+                        <a class="shop__catalog-link" href="#">
+                            <svg width="31" height="31" viewBox="0 0 31 31" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="3.5" cy="3.5" r="3.5" fill="#4798DE" />
+                                <circle cx="3.5" cy="15.5" r="3.5" fill="#4798DE" />
+                                <circle cx="3.5" cy="27.5" r="3.5" fill="#4798DE" />
+                                <circle cx="15.5" cy="3.5" r="3.5" fill="#4798DE" />
+                                <circle cx="15.5" cy="15.5" r="3.5" fill="#4798DE" />
+                                <circle cx="15.5" cy="27.5" r="3.5" fill="#4798DE" />
+                                <circle cx="27.5" cy="3.5" r="3.5" fill="#4798DE" />
+                                <circle cx="27.5" cy="15.5" r="3.5" fill="#4798DE" />
+                                <circle cx="27.5" cy="27.5" r="3.5" fill="#4798DE" />
+                            </svg>
+                            <p class="shop__name-catalog">Каталог товаров</p>
+                        </a>
+                    </div>
+                    <div class="header__shop-search">
+                        <input type="text" class="search__input" placeholder="Поиск товаров и брендов" />
+                        <a href="#" class="search__icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24.0195 24.02L33.3327 33.3332" stroke="white" stroke-width="2"
+                                    stroke-linecap="square" />
+                                <path
+                                    d="M16.666 26.6665C22.1889 26.6665 26.666 22.1894 26.666 16.6665C26.666 11.1437 22.1889 6.6665 16.666 6.6665C11.1432 6.6665 6.66602 11.1437 6.66602 16.6665C6.66602 22.1894 11.1432 26.6665 16.666 26.6665Z"
+                                    stroke="white" stroke-width="2" stroke-linecap="square" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="header__shop-info">
+                        <p class="header__shop-info-number">8-800-000-00-00</p>
+                        <a class="header__shop-info-text" href="#">Вам перезвонить?</a>
+                    </div>
+                </div>
+                <div class="header__shop-elem">
+                    <a class="shop__elem-link" href="#">
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12.5007 21.875L10.9902 20.5262C5.62565 15.7544 2.08398 12.6073 2.08398 8.74489C2.08398 5.59775 4.60482 3.125 7.81315 3.125C9.62565 3.125 11.3652 3.95266 12.5007 5.26056C13.6361 3.95266 15.3757 3.125 17.1882 3.125C20.3965 3.125 22.9173 5.59775 22.9173 8.74489C22.9173 12.6073 19.3757 15.7544 14.0111 20.5364L12.5007 21.875Z"
+                                stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
+                        </svg>
+                        <p class="shop__elem-text">Избранное</p>
+                    </a>
+                    <a class="shop__elem-link" href="#">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 25H25" stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
+                            <path d="M7.5 25L7.5 11.25H12.5V25" stroke="#4798DE" stroke-width="2"
+                                stroke-linecap="square" />
+                            <path d="M12.5 25L12.5 6.25H17.5V25" stroke="#4798DE" stroke-width="2"
+                                stroke-linecap="square" />
+                            <path d="M17.5 25V15H22.5V25" stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
+                        </svg>
+                        <p class="shop__elem-text">Сравнение</p>
+                    </a>
+                    <a class="shop__elem-link" href="#">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 25H25" stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
+                            <path d="M7.5 25L7.5 11.25H12.5V25" stroke="#4798DE" stroke-width="2"
+                                stroke-linecap="square" />
+                            <path d="M12.5 25L12.5 6.25H17.5V25" stroke="#4798DE" stroke-width="2"
+                                stroke-linecap="square" />
+                            <path d="M17.5 25V15H22.5V25" stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
+                        </svg>
+                        <p class="shop__elem-text">Корзина</p>
+                    </a>
+                </div>
             </div>
         </div>
         <div class="header__slider">
             <div class="header__image">
                 <div class="header__fon">
-                    <h3 class="header__fon-text">Скидки на мебель для ванной комнаты <span
-                            class="header__fon-action color-green">до 10%</span></h3>
+                    <h3 class="header__fon-text">Скидки на мебель <br> для ванной комнаты</h3>
+                    <span class="header__fon-action">до 10%</span>
                     <a class="header__fon-link" href="#">Подробнее</a>
                 </div>
             </div>
-            <div class="header__slider-switch">
-                <h1>********</h1>
+            <div class="container">
+                <div class="header__slider-switch">
+                    <label class="slider__switch-elem">
+                        <input class="slider__custom-radio" type="radio" name="option" value="1" checked/>
+                        <span class="slider__radio-mark"></span>
+                    </label>
+                    <label class="slider__switch-elem">
+                        <input class="slider__custom-radio" type="radio" name="option" value="1" />
+                        <span class="slider__radio-mark"></span>
+                    </label>
+                    <label class="slider__switch-elem">
+                        <input class="slider__custom-radio" type="radio" name="option" value="1" />
+                        <span class="slider__radio-mark"></span>
+                    </label>
+                    <label class="slider__switch-elem">
+                        <input class="slider__custom-radio" type="radio" name="option" value="1" />
+                        <span class="slider__radio-mark"></span>
+                    </label>
+                    <label class="slider__switch-elem">
+                        <input class="slider__custom-radio" type="radio" name="option" value="1" />
+                        <span class="slider__radio-mark"></span>
+                    </label>
+                    <label class="slider__switch-elem">
+                        <input class="slider__custom-radio" type="radio" name="option" value="1" />
+                        <span class="slider__radio-mark"></span>
+                    </label>
+                </div>
             </div>
         </div>
     </header>
     <div class="action">
-        <h1 class="action__stock">Stock</h1>
-        <div class="action__top-menu">
-            <div class="action__name">
-                <p>Акции</p>
+        <div class="container">
+            <h1 class="action__stock">Stock</h1>
+            <div class="action__top-menu">
+                <div class="action__name">
+                    <p>Акции</p>
+                </div>
+                <div class="action__all-actions"><a href="#">Все акции</a></div>
             </div>
-            <div class="action__all-actions"><a href="#">Все акции</a></div>
-        </div>
-        <div class="action__slider">
-            <div class="action__slider-menu">
-                <div class="action__slider-slide">
-                    <div class="action__slider-text">
-                        <h3>Зимняя распродажа</h3>
-                        <h3>АКСЕСУАРЫ<span>-15%</span></h3>
+            <div class="action__slider">
+                <div class="action__slider-menu">
+                    <div class="action__slider-slide">
+                        <div class="action__slider-text">
+                            <h3>Зимняя распродажа</h3>
+                            <h3>АКСЕСУАРЫ<span>-15%</span></h3>
+                        </div>
+                    </div>
+                    <div class="action__slider-slide">
+                        <div class="action__slider-text">
+                            <h3>Зимняя распродажа</h3>
+                            <h3>АКСЕСУАРЫ<span>-15%</span></h3>
+                        </div>
+                    </div>
+                    <div class="action__slider-slide">
+                        <div class="action__slider-text">
+                            <h3>Зимняя распродажа</h3>
+                            <h3>АКСЕСУАРЫ<span>-15%</span></h3>
+                        </div>
                     </div>
                 </div>
-                <div class="action__slider-slide">
-                    <div class="action__slider-text">
-                        <h3>Зимняя распродажа</h3>
-                        <h3>АКСЕСУАРЫ<span>-15%</span></h3>
-                    </div>
+                <div class="action__slider-switch slider-switch">
+                    <h1><- ******** -></h1>
                 </div>
-                <div class="action__slider-slide">
-                    <div class="action__slider-text">
-                        <h3>Зимняя распродажа</h3>
-                        <h3>АКСЕСУАРЫ<span>-15%</span></h3>
-                    </div>
-                </div>
-            </div>
-            <div class="action__slider-switch slider-switch">
-                <h1><- ******** -></h1>
             </div>
         </div>
     </div>
     <main class="main">
-        <div class="main__header">
-            <div class="main__header-title">
-                <nav class="main__header-nav">
-                    <ul class="main__header-list">
-                        <li class="main__list-item"><a class="main__list-link" href="#">ХИТЫ ПРОДАЖ</a></li>
-                        <li class="main__list-item"><a class="main__list-link" href="#">НОВИНКИ</a></li>
-                        <li class="main__list-item"><a class="main__list-link" href="#">% СКИДКИ</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="main__categories">
-                <nav class="main__categories-nav">
-                    <ul class="main__categories-list">
-                        <li class="main__categories-item"><a class="main__categories-link" href="#">Все</a></li>
-                        <li class="main__categories-item"><a class="main__categories-link" href="#">Ванны</a></li>
-                        <li class="main__categories-item"><a class="main__categories-link" href="#">Душ</a></li>
-                        <li class="main__categories-item"><a class="main__categories-link" href="#">Душевые углы и
-                                ограждения</a></li>
-                        <li class="main__categories-item"><a class="main__categories-link" href="#">Мебель для ванных
-                                комнат</a></li>
-                        <li class="main__categories-item"><a class="main__categories-link"
-                                href="#">Полотенцесушители</a></li>
-                        <li class="main__categories-item"><a class="main__categories-link" href="#">Санфаянс</a></li>
-                        <li class="main__categories-item"><a class="main__categories-link" href="#">Смесители</a></li>
-                        <li class="main__categories-item"><a class="main__categories-link" href="#">Аксессуары</a></li>
-                        <li class="main__categories-item"><a class="main__categories-link" href="#">Системы
-                                инсталяции</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-        <div class="main__content">
-            <div class="main__content-products">
-                <div class="main__products-block">
-                    <div class="main__products-image">
-                        <a href="#">ХИТ ПРОДАЖ</a>
-                    </div>
-                    <div class="main__products-info">
-                        <p>Наименование</p>
-                        <p>Бренд:
-                            Страна:
-                            <span>В наличии</span>
-                        </p>
-                        <h2>8000 грн</h2>
-                    </div>
-                    <div class="main__products-price">
-                        <div class="main__products-price-buttons">
-                            <a href="#">В корзину</a>
-                        </div>
-                        <div class="main__products-price-icons">
-                            <a href="#">Icon</a>
-                            <a href="#">Icon</a>
-                        </div>
-                    </div>
+        <div class="container">
+            <div class="main__header">
+                <div class="main__header-title">
+                    <nav class="main__header-nav">
+                        <ul class="main__header-list">
+                            <li class="main__list-item"><a class="main__list-link" href="#">ХИТЫ ПРОДАЖ</a></li>
+                            <li class="main__list-item"><a class="main__list-link" href="#">НОВИНКИ</a></li>
+                            <li class="main__list-item"><a class="main__list-link" href="#">% СКИДКИ</a></li>
+                        </ul>
+                    </nav>
                 </div>
-                <div class="main__products-block">
-                    <div class="main__products-image">
-                        <a href="#">ХИТ ПРОДАЖ</a>
-                    </div>
-                    <div class="main__products-info">
-                        <p>Наименование</p>
-                        <p>Бренд:
-                            Страна:
-                            <span>В наличии</span>
-                        </p>
-                        <h2>8000 грн</h2>
-                    </div>
-                    <div class="main__products-price">
-                        <div class="main__products-price-buttons">
-                            <a href="#">В корзину</a>
-                        </div>
-                        <div class="main__products-price-icons">
-                            <a href="#">Icon</a>
-                            <a href="#">Icon</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="main__products-block">
-                    <div class="main__products-image">
-                        <a href="#">ХИТ ПРОДАЖ</a>
-                    </div>
-                    <div class="main__products-info">
-                        <p>Наименование</p>
-                        <p>Бренд:
-                            Страна:
-                            <span>В наличии</span>
-                        </p>
-                        <h2>8000 грн</h2>
-                    </div>
-                    <div class="main__products-price">
-                        <div class="main__products-price-buttons">
-                            <a href="#">В корзину</a>
-                        </div>
-                        <div class="main__products-price-icons">
-                            <a href="#">Icon</a>
-                            <a href="#">Icon</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="main__products-block">
-                    <div class="main__products-image">
-                        <a href="#">ХИТ ПРОДАЖ</a>
-                    </div>
-                    <div class="main__products-info">
-                        <p>Наименование</p>
-                        <p>Бренд:
-                            Страна:
-                            <span>В наличии</span>
-                        </p>
-                        <h2>8000 грн</h2>
-                    </div>
-                    <div class="main__products-price">
-                        <div class="main__products-price-buttons">
-                            <a href="#">В корзину</a>
-                        </div>
-                        <div class="main__products-price-icons">
-                            <a href="#">Icon</a>
-                            <a href="#">Icon</a>
-                        </div>
-                    </div>
+                <div class="main__categories">
+                    <nav class="main__categories-nav">
+                        <ul class="main__categories-list">
+                            <li class="main__categories-item"><a class="main__categories-link" href="#">Все</a></li>
+                            <li class="main__categories-item"><a class="main__categories-link" href="#">Ванны</a></li>
+                            <li class="main__categories-item"><a class="main__categories-link" href="#">Душ</a></li>
+                            <li class="main__categories-item"><a class="main__categories-link" href="#">Душевые углы и
+                                    ограждения</a></li>
+                            <li class="main__categories-item"><a class="main__categories-link" href="#">Мебель для
+                                    ванных
+                                    комнат</a></li>
+                            <li class="main__categories-item"><a class="main__categories-link"
+                                    href="#">Полотенцесушители</a></li>
+                            <li class="main__categories-item"><a class="main__categories-link" href="#">Санфаянс</a>
+                            </li>
+                            <li class="main__categories-item"><a class="main__categories-link" href="#">Смесители</a>
+                            </li>
+                            <li class="main__categories-item"><a class="main__categories-link" href="#">Аксессуары</a>
+                            </li>
+                            <li class="main__categories-item"><a class="main__categories-link" href="#">Системы
+                                    инсталяции</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-            <div class="main__content-item">
-                <a class="main__content-link" href="#">ЗАГРУЗИТЬ ЕЩЕ</a>
+            <div class="main__content">
+                <div class="main__content-products">
+                    <div class="main__products-block">
+                        <div class="main__products-image">
+                            <a href="#">ХИТ ПРОДАЖ</a>
+                        </div>
+                        <div class="main__products-info">
+                            <p>Наименование</p>
+                            <p>Бренд:
+                                Страна:
+                                <span>В наличии</span>
+                            </p>
+                            <h2>8000 грн</h2>
+                        </div>
+                        <div class="main__products-price">
+                            <div class="main__products-price-buttons">
+                                <a href="#">В корзину</a>
+                            </div>
+                            <div class="main__products-price-icons">
+                                <a href="#">Icon</a>
+                                <a href="#">Icon</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__products-block">
+                        <div class="main__products-image">
+                            <a href="#">ХИТ ПРОДАЖ</a>
+                        </div>
+                        <div class="main__products-info">
+                            <p>Наименование</p>
+                            <p>Бренд:
+                                Страна:
+                                <span>В наличии</span>
+                            </p>
+                            <h2>8000 грн</h2>
+                        </div>
+                        <div class="main__products-price">
+                            <div class="main__products-price-buttons">
+                                <a href="#">В корзину</a>
+                            </div>
+                            <div class="main__products-price-icons">
+                                <a href="#">Icon</a>
+                                <a href="#">Icon</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__products-block">
+                        <div class="main__products-image">
+                            <a href="#">ХИТ ПРОДАЖ</a>
+                        </div>
+                        <div class="main__products-info">
+                            <p>Наименование</p>
+                            <p>Бренд:
+                                Страна:
+                                <span>В наличии</span>
+                            </p>
+                            <h2>8000 грн</h2>
+                        </div>
+                        <div class="main__products-price">
+                            <div class="main__products-price-buttons">
+                                <a href="#">В корзину</a>
+                            </div>
+                            <div class="main__products-price-icons">
+                                <a href="#">Icon</a>
+                                <a href="#">Icon</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__products-block">
+                        <div class="main__products-image">
+                            <a href="#">ХИТ ПРОДАЖ</a>
+                        </div>
+                        <div class="main__products-info">
+                            <p>Наименование</p>
+                            <p>Бренд:
+                                Страна:
+                                <span>В наличии</span>
+                            </p>
+                            <h2>8000 грн</h2>
+                        </div>
+                        <div class="main__products-price">
+                            <div class="main__products-price-buttons">
+                                <a href="#">В корзину</a>
+                            </div>
+                            <div class="main__products-price-icons">
+                                <a href="#">Icon</a>
+                                <a href="#">Icon</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__content-item">
+                    <a class="main__content-link" href="#">ЗАГРУЗИТЬ ЕЩЕ</a>
+                </div>
             </div>
         </div>
     </main>
     <div class="advertising">
-        <div class="advertising-container">
-            <div class="advertising-container-items">
-                <div class="advertising-item">
-                    <h1>2К</h1>
-                    <p>наименований продукции</p>
-                </div>
-                <div class="advertising-item">
-                    <h1>30</h1>
-                    <p>
-                        брендов
-                        работают с нами</p>
-                </div>
-            </div>
-            <div class="advertising-container-text">
-                <h2>Мы не просто продаем товары для ванной - мы помогаем вам найти лучшее решение.</h2>
-                <div class="advertising-container-description">
-                    <div class="advertising-description-item">
-                        <div class="description-item-image">IMAGE</div>
-                        <div class="description-item-text">
-                            <span>ДОСТАВКА</span>
-                            <p>Доставим товар в удобное для вас время</p>
-                        </div>
+        <div class="container">
+            <div class="advertising-container">
+                <div class="advertising-container-items">
+                    <div class="advertising-item">
+                        <h1>2К</h1>
+                        <p>наименований продукции</p>
+                    </div>
+                    <div class="advertising-item">
+                        <h1>30</h1>
+                        <p>
+                            брендов
+                            работают с нами</p>
                     </div>
                 </div>
-                <div class="advertising-container-description">
-                    <div class="advertising-description-item">
-                        <div class="description-item-image">IMAGE</div>
-                        <div class="description-item-text">
-                            <span>САМОВЫВОЗ</span>
-                            <p>Вы можете самостоятельно забрать заказ в пункте самовывоза.</p>
+                <div class="advertising-container-text">
+                    <h2>Мы не просто продаем товары для ванной - мы помогаем вам найти лучшее решение.</h2>
+                    <div class="advertising-container-description">
+                        <div class="advertising-description-item">
+                            <div class="description-item-image">IMAGE</div>
+                            <div class="description-item-text">
+                                <span>ДОСТАВКА</span>
+                                <p>Доставим товар в удобное для вас время</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="advertising-container-description">
-                    <div class="advertising-description-item">
-                        <div class="description-item-image">IMAGE</div>
-                        <div class="description-item-text">
-                            <span>ШИРОКИЙ АССОРТИМЕНТ ТОВАРОВ</span>
-                            <p>У нас найдется все.</p>
+                    <div class="advertising-container-description">
+                        <div class="advertising-description-item">
+                            <div class="description-item-image">IMAGE</div>
+                            <div class="description-item-text">
+                                <span>САМОВЫВОЗ</span>
+                                <p>Вы можете самостоятельно забрать заказ в пункте самовывоза.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="advertising-container-description">
-                    <div class="advertising-description-item">
-                        <div class="description-item-image">IMAGE</div>
-                        <div class="description-item-text">
-                            <span>КЛИЕНТСКИЙ СЕРВИС</span>
-                            <p>Оказываем поддержку на всех этапах покупки товара</p>
+                    <div class="advertising-container-description">
+                        <div class="advertising-description-item">
+                            <div class="description-item-image">IMAGE</div>
+                            <div class="description-item-text">
+                                <span>ШИРОКИЙ АССОРТИМЕНТ ТОВАРОВ</span>
+                                <p>У нас найдется все.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="advertising-container-description">
-                    <div class="advertising-description-item">
-                        <div class="description-item-image">IMAGE</div>
-                        <div class="description-item-text">
-                            <span>ГАРАНТИЯ КАЧЕСТВА</span>
-                            <p>Соответствуем требованиям и стандартам качества</p>
+                    <div class="advertising-container-description">
+                        <div class="advertising-description-item">
+                            <div class="description-item-image">IMAGE</div>
+                            <div class="description-item-text">
+                                <span>КЛИЕНТСКИЙ СЕРВИС</span>
+                                <p>Оказываем поддержку на всех этапах покупки товара</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="advertising-container-description">
-                    <div class="advertising-description-item">
-                        <div class="description-item-image">IMAGE</div>
-                        <div class="description-item-text">
-                            <span>АКЦИИ И СКИДКИ </span>
-                            <p>Постоянным клиентам акции и скидки</p>
+                    <div class="advertising-container-description">
+                        <div class="advertising-description-item">
+                            <div class="description-item-image">IMAGE</div>
+                            <div class="description-item-text">
+                                <span>ГАРАНТИЯ КАЧЕСТВА</span>
+                                <p>Соответствуем требованиям и стандартам качества</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="advertising-container-description">
+                        <div class="advertising-description-item">
+                            <div class="description-item-image">IMAGE</div>
+                            <div class="description-item-text">
+                                <span>АКЦИИ И СКИДКИ </span>
+                                <p>Постоянным клиентам акции и скидки</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -303,71 +408,128 @@
         </div>
     </div>
     <div class="info">
-        <div class="info__slider">
-            <div class="info__slider-menu">
-                <div class="info__slider-slide">
-                    <span>ПРОИЗВОДИТЕЛИ</span>
+        <div class="container">
+            <div class="info__slider">
+                <div class="info__slider-menu">
+                    <div class="info__slider-slide">
+                        <span>ПРОИЗВОДИТЕЛИ</span>
+                    </div>
+                    <div class="info__slider-slide">
+                        <span>АКЦИИ</span>
+                    </div>
+                    <div class="info__slider-slide">
+                        <span>ОПЛАТА</span>
+                    </div>
+                    <div class="info__slider-slide">
+                        <span>ВАННЫ ROCA</span>
+                    </div>
+                    <div class="info__slider-slide">
+                        <span>ДАРИМ ПОДАРКИ</span>
+                    </div>
+                    <div class="info__slider-slide">
+                        <span>ВЫБРАТЬ ВАННУ</span>
+                    </div>
                 </div>
-                <div class="info__slider-slide">
-                    <span>АКЦИИ</span>
+                <div class="info__slider-switch slider-switch">
+                    <h1><- ******** -></h1>
                 </div>
-                <div class="info__slider-slide">
-                    <span>ОПЛАТА</span>
-                </div>
-                <div class="info__slider-slide">
-                    <span>ВАННЫ ROCA</span>
-                </div>
-                <div class="info__slider-slide">
-                    <span>ДАРИМ ПОДАРКИ</span>
-                </div>
-                <div class="info__slider-slide">
-                    <span>ВЫБРАТЬ ВАННУ</span>
-                </div>
-            </div>
-            <div class="info__slider-switch slider-switch">
-                <h1><- ******** -></h1>
             </div>
         </div>
     </div>
     <div class="popular">
-        <div class="popular__header">
-            <p>Популярные категории</p>
-        </div>
-        <div class="popular__categories">
-            <div class="popular__category">
-                <img class="popular__img" src="" alt="">
-                <span class="popular__text">РАКОВИНЫ</span>
+        <div class="container">
+            <div class="popular__header">
+                <p>Популярные категории</p>
             </div>
-            <div class="popular__category">
-                <img class="popular__img" src="" alt="">
-                <span class="popular__text">УНИТАЗЫ</span>
-            </div>
-            <div class="popular__category">
-                <img class="popular__img" src="" alt="">
-                <span class="popular__text">СМЕСИТЕЛИ</span>
-            </div>
-            <div class="popular__category">
-                <img class="popular__img" src="" alt="">
-                <span class="popular__text">СИСТЕМЫ ИНСТАЛЛЯЦИИ</span>
-            </div>
-            <div class="popular__category">
-                <img class="popular__img" src="" alt="">
-                <span class="popular__text">ВАННЫ</span>
-            </div>
-            <div class="popular__category">
-                <img class="popular__img" src="" alt="">
-                <span class="popular__text">МЕБЕЛЬ ДЛЯ ВАННЫХ КОМНАТ</span>
-            </div>
-            <div class="popular__category">
-                <img class="popular__img" src="" alt="">
-                <span class="popular__text">ДУШЕВЫЕ УГЛЫ И ОГРАЖДЕНИЯ</span>
-            </div>
-            <div class="popular__category">
-                <img class="popular__img" src="" alt="">
-                <span class="popular__text">АКСЕССУАРЫ ДЛЯ ВАННЫХ КОМНАТ</span>
+            <div class="popular__categories">
+                <div class="popular__category">
+                    <img class="popular__img" src="" alt="">
+                    <span class="popular__text">РАКОВИНЫ</span>
+                </div>
+                <div class="popular__category">
+                    <img class="popular__img" src="" alt="">
+                    <span class="popular__text">УНИТАЗЫ</span>
+                </div>
+                <div class="popular__category">
+                    <img class="popular__img" src="" alt="">
+                    <span class="popular__text">СМЕСИТЕЛИ</span>
+                </div>
+                <div class="popular__category">
+                    <img class="popular__img" src="" alt="">
+                    <span class="popular__text">СИСТЕМЫ ИНСТАЛЛЯЦИИ</span>
+                </div>
+                <div class="popular__category">
+                    <img class="popular__img" src="" alt="">
+                    <span class="popular__text">ВАННЫ</span>
+                </div>
+                <div class="popular__category">
+                    <img class="popular__img" src="" alt="">
+                    <span class="popular__text">МЕБЕЛЬ ДЛЯ ВАННЫХ КОМНАТ</span>
+                </div>
+                <div class="popular__category">
+                    <img class="popular__img" src="" alt="">
+                    <span class="popular__text">ДУШЕВЫЕ УГЛЫ И ОГРАЖДЕНИЯ</span>
+                </div>
+                <div class="popular__category">
+                    <img class="popular__img" src="" alt="">
+                    <span class="popular__text">АКСЕССУАРЫ ДЛЯ ВАННЫХ КОМНАТ</span>
+                </div>
             </div>
         </div>
     </div>
+    <footer class="footer">
+        <div class="container grid">
+            <div class="grid__left1">
+                <a class="footer__logo" href="#">
+                    <img src="/image/logo.png" alt="Logo">
+                </a>
+                <p>Мы в социальных сетях</p>
+                <div class="footer__icon">
+                    <a href="#">ICON</a>
+                    <a href="#">ICON</a>
+                    <a href="#">ICON</a>
+                </div>
+                <p>Мы принимаем</p>
+                <div class="footer__cards">
+                    <a href="#">ICON</a>
+                    <a href="#">ICON</a>
+                    <a href="#">ICON</a>
+                </div>
+            </div>
+            <div class="grid__left2">
+                <span class="footer__description">ПОКУПАТЕЛЮ</span>
+                <a class="footer__links" href="#">Доставка</a>
+                <a class="footer__links" href="#">Оплата</a>
+                <a class="footer__links" href="#">Гарантии и возврат</a>
+                <a class="footer__links" href="#">Производители</a>
+                <a class="footer__links" href="#">Статьи</a>
+            </div>
+            <div class="grid__right1">
+                <span class="footer__description">КОМПАНИЯ</span>
+                <a class="footer__links" href="#">О нас</a>
+                <a class="footer__links" href="#">Контакты</a>
+                <a class="footer__links" href="#">Пользовательское соглашение</a>
+                <a class="footer__links" href="#">Политика конфиденциальности</a>
+                <a class="footer__links" href="#">Обратная связь</a>
+            </div>
+            <div class="grid__right2">
+                <span class="footer__description">КОНТАКТЫ</span>
+                <a class="footer__links" href="tel:+38000000000">+38 (000) 000-00-00</a>
+                <a class="footer__links" href="#">zakaz@gmail.com</a>
+                <a href="#">г.Киев</a>
+            </div>
+            <div class="grid__column">
+                <form class="subscribe-form">
+                    <input type="email" id="subscribe-email" class="subscribe-form__input" placeholder="Введите e-mail"
+                        required />
+                    <button type="submit" class="subscribe-form__button">ПОДПИСАТЬСЯ</button>
+                </form>
+                <p>Станьте нашим подписчиком, чтобы быть в курсе информации о новинках и специальных предложениях.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,347 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  src: url('/fonts/PTSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  src: url('/fonts/PTSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+
+html,
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 75px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #6F7682;
+}
+
+/* HEADER */
+
+.header {
+  margin-top: 21px;
+}
+
+.header__navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 21px;
+}
+
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  gap: 29px;
+}
+
+.header__slider-switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav-list {
+  display: flex;
+  gap: 30px;
+}
+
+.header__nav-item {
+  list-style-type: none;
+  display: flex;
+}
+
+.header__nav-link {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #6F7682;
+  transition: all 0.3s ease-out;
+}
+
+.header__auth {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__auth-span {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #6F7682;
+}
+
+.header__auth-link {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #6F7682;
+  transition: all 0.3s ease-out;
+}
+
+.header__nav-link:hover,
+.header__auth-link:hover {
+  text-decoration: underline;
+  transform: scale(1.2);
+}
+
+.header__shop-panel {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0
+}
+
+.header__shop-left {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.header__shop-catalog {}
+
+.shop__catalog-link {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+
+}
+
+.shop__name-catalog {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #4798DE;
+}
+
+.header__shop-search {
+  display: flex;
+}
+
+.header__shop-info {}
+
+.header__shop-elem {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.shop__elem-link {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  flex-direction: column;
+}
+
+.shop__elem-text {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #4798DE;
+}
+
+.header__shop-info-number {
+  color: #6F7682;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.header__shop-info-text {
+  color: #6CDB7E;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.search__input {
+  width: 439px;
+  height: 50px;
+  border: 1px solid #979595;
+  padding-left: 40px;
+  outline: none;
+}
+
+.search__input:focus {
+  border: 1px solid #4798DE;
+}
+
+.search__icon {
+  background-color: #4798DE;
+  display: flex;
+  width: 84px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__image {
+  max-width: 100%;
+  height: 600px;
+  background-image: url('/image/footer-fon.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__fon {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.75);
+  width: 35%;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 30px;
+}
+
+.header__fon-text {
+  color: #6F7682;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.header__fon-action {
+  color: #6CDB7E;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+}
+
+.header__fon-link {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #4798DE;
+  color: #FFFFFF;
+  width: 140px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  transition: all 0.3s ease-out;
+  margin-top: 45px
+}
+
+.header__fon-link:hover {
+  transform: scale(1.1);
+}
+
+.header__fon-link:active {
+  transform: scale(1.0);
+}
+
+
+/* Скрываем оригинальный radio */
+.slider__custom-radio {
+  display: none;
+}
+
+/* Внешний вид кастомного кружка */
+.slider__radio-mark {
+  display: inline-block;
+  width: 20px;
+  height: 7px;
+  background-color: #F1F2F6;
+  margin-right: 10px;
+  vertical-align: middle;
+  position: relative;
+  cursor: pointer;
+}
+
+/* Стиль при выбранном радио */
+.slider__custom-radio:checked + .slider__radio-mark::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 7px;
+  background: #4798DE;
+}
+
+/* FOOTER */
+
+.footer {
+  color: black;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* 4 равные колонки */
+  grid-template-rows: auto auto;
+  /* 2 строки */
+  gap: 16px;
+}
+
+/* Левые блоки — занимают обе строки */
+.grid__left1 {
+  grid-column: 1;
+  grid-row: 1 / 3;
+  background: #cfe;
+}
+
+.grid__left2 {
+  grid-column: 2;
+  grid-row: 1 / 3;
+  background: #cef;
+}
+
+/* Правые верхние блоки */
+.grid__right1 {
+  grid-column: 3;
+  grid-row: 1;
+  background: #fcc;
+}
+
+.grid__right2 {
+  grid-column: 4;
+  grid-row: 1;
+  background: #fcf;
+}
+
+/* Нижний блок под правыми */
+.grid__column {
+  grid-column: 3 / 5;
+  /* от 3 до 4 колонки включительно */
+  grid-row: 2;
+  background: #ddd;
+}
