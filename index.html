@@ -135,27 +135,27 @@
             <div class="container">
                 <div class="header__slider-switch">
                     <label class="slider__switch-elem">
-                        <input class="slider__custom-radio" type="radio" name="option" value="1" checked />
+                        <input class="slider__custom-radio" type="radio" name="header" value="1" checked />
                         <span class="slider__radio-mark"></span>
                     </label>
                     <label class="slider__switch-elem">
-                        <input class="slider__custom-radio" type="radio" name="option" value="1" />
+                        <input class="slider__custom-radio" type="radio" name="header" value="1" />
                         <span class="slider__radio-mark"></span>
                     </label>
                     <label class="slider__switch-elem">
-                        <input class="slider__custom-radio" type="radio" name="option" value="1" />
+                        <input class="slider__custom-radio" type="radio" name="header" value="1" />
                         <span class="slider__radio-mark"></span>
                     </label>
                     <label class="slider__switch-elem">
-                        <input class="slider__custom-radio" type="radio" name="option" value="1" />
+                        <input class="slider__custom-radio" type="radio" name="header" value="1" />
                         <span class="slider__radio-mark"></span>
                     </label>
                     <label class="slider__switch-elem">
-                        <input class="slider__custom-radio" type="radio" name="option" value="1" />
+                        <input class="slider__custom-radio" type="radio" name="header" value="1" />
                         <span class="slider__radio-mark"></span>
                     </label>
                     <label class="slider__switch-elem">
-                        <input class="slider__custom-radio" type="radio" name="option" value="1" />
+                        <input class="slider__custom-radio" type="radio" name="header" value="1" />
                         <span class="slider__radio-mark"></span>
                     </label>
                 </div>
@@ -185,34 +185,34 @@
                             class="action__slider-image">
                     </a>
                 </div>
-                <div class="action__slider-switch">
+                <div class="slider-switch">
                     <svg class="slider__switch-arrow" width="16" height="25" viewBox="0 0 16 25" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M14.0059 22.9814L3.00586 12.1609L14.0059 1.94153" stroke="#4798DE" stroke-width="3" />
                     </svg>
                     <div>
                         <label class="slider__switch-elem">
-                            <input class="slider__custom-radio" type="radio" name="option" value="1" checked />
+                            <input class="slider__custom-radio" type="radio" name="action" value="1" checked />
                             <span class="slider__radio-mark"></span>
                         </label>
                         <label class="slider__switch-elem">
-                            <input class="slider__custom-radio" type="radio" name="option" value="1" />
+                            <input class="slider__custom-radio" type="radio" name="action" value="1" />
                             <span class="slider__radio-mark"></span>
                         </label>
                         <label class="slider__switch-elem">
-                            <input class="slider__custom-radio" type="radio" name="option" value="1" />
+                            <input class="slider__custom-radio" type="radio" name="action" value="1" />
                             <span class="slider__radio-mark"></span>
                         </label>
                         <label class="slider__switch-elem">
-                            <input class="slider__custom-radio" type="radio" name="option" value="1" />
+                            <input class="slider__custom-radio" type="radio" name="action" value="1" />
                             <span class="slider__radio-mark"></span>
                         </label>
                         <label class="slider__switch-elem">
-                            <input class="slider__custom-radio" type="radio" name="option" value="1" />
+                            <input class="slider__custom-radio" type="radio" name="action" value="1" />
                             <span class="slider__radio-mark"></span>
                         </label>
                         <label class="slider__switch-elem">
-                            <input class="slider__custom-radio" type="radio" name="option" value="1" />
+                            <input class="slider__custom-radio" type="radio" name="action" value="1" />
                             <span class="slider__radio-mark"></span>
                         </label>
                     </div>
@@ -295,38 +295,44 @@
                             <img class="main__products-image" src="/image/product-1.png" alt="product-1" loading="lazy">
                             <!-- <p class="main__products-text">ХИТ ПРОДАЖ</p> -->
                         </a>
-                        <div class="main__products-info">
-                            <p class="products__info-name">Наименование</p>
-                            <p class="products__info-brand">Бренд:</p>
-                            <p class="products__info-country">Страна:</p>
-                            <p class="products__info-stock">В наличии</p>
-                            <h2 class="products__info-price">8000 грн</h2>
-                        </div>
-                        <div class="main__products-price">
-                            <div class="main__products-price-buttons">
-                                <a href="#">В корзину</a>
+                        <div class="main__products-container">
+                            <div class="main__products-info">
+                                <p class="products__info-name">Наименование</p>
+                                <p class="products__info-brand">Бренд:</p>
+                                <p class="products__info-country">Страна:</p>
+                                <p class="products__info-stock">В наличии <svg width="15" height="15"
+                                        viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M2.5 8.125L5.625 11.25L12.5 4.375" stroke="#4798DE"
+                                            stroke-linecap="square" />
+                                    </svg>
+                                </p>
+                                <h2 class="products__info-price">8000 грн</h2>
                             </div>
-                            <div class="main__products-price-icons">
-                                <a href="#">
-                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M12.5007 21.875L10.9902 20.5262C5.62565 15.7544 2.08398 12.6073 2.08398 8.74489C2.08398 5.59775 4.60482 3.125 7.81315 3.125C9.62565 3.125 11.3652 3.95266 12.5007 5.26056C13.6361 3.95266 15.3757 3.125 17.1882 3.125C20.3965 3.125 22.9173 5.59775 22.9173 8.74489C22.9173 12.6073 19.3757 15.7544 14.0111 20.5364L12.5007 21.875Z"
-                                            stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
-                                    </svg>
-                                </a>
-                                <a href="#">
-                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M5 25H25" stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
-                                        <path d="M7.5 25L7.5 11.25H12.5V25" stroke="#4798DE" stroke-width="2"
-                                            stroke-linecap="square" />
-                                        <path d="M12.5 25L12.5 6.25H17.5V25" stroke="#4798DE" stroke-width="2"
-                                            stroke-linecap="square" />
-                                        <path d="M17.5 25V15H22.5V25" stroke="#4798DE" stroke-width="2"
-                                            stroke-linecap="square" />
-                                    </svg>
-                                </a>
+                            <div class="main__products-price">
+                                <a class="main__products-price-buttons" href="#">В корзину</a>
+                                <div class="main__products-price-icons">
+                                    <a href="#">
+                                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.5007 21.875L10.9902 20.5262C5.62565 15.7544 2.08398 12.6073 2.08398 8.74489C2.08398 5.59775 4.60482 3.125 7.81315 3.125C9.62565 3.125 11.3652 3.95266 12.5007 5.26056C13.6361 3.95266 15.3757 3.125 17.1882 3.125C20.3965 3.125 22.9173 5.59775 22.9173 8.74489C22.9173 12.6073 19.3757 15.7544 14.0111 20.5364L12.5007 21.875Z"
+                                                stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
+                                        </svg>
+                                    </a>
+                                    <a href="#">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5 25H25" stroke="#4798DE" stroke-width="2"
+                                                stroke-linecap="square" />
+                                            <path d="M7.5 25L7.5 11.25H12.5V25" stroke="#4798DE" stroke-width="2"
+                                                stroke-linecap="square" />
+                                            <path d="M12.5 25L12.5 6.25H17.5V25" stroke="#4798DE" stroke-width="2"
+                                                stroke-linecap="square" />
+                                            <path d="M17.5 25V15H22.5V25" stroke="#4798DE" stroke-width="2"
+                                                stroke-linecap="square" />
+                                        </svg>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -335,38 +341,44 @@
                             <img class="main__products-image" src="/image/product-2.png" alt="product-2" loading="lazy">
                             <!-- <p class="main__products-text">ХИТ ПРОДАЖ</p> -->
                         </a>
-                        <div class="main__products-info">
-                            <p class="products__info-name">Наименование</p>
-                            <p class="products__info-brand">Бренд:</p>
-                            <p class="products__info-country">Страна:</p>
-                            <p class="products__info-stock">В наличии</p>
-                            <h2 class="products__info-price">8000 грн</h2>
-                        </div>
-                        <div class="main__products-price">
-                            <div class="main__products-price-buttons">
-                                <a href="#">В корзину</a>
+                        <div class="main__products-container">
+                            <div class="main__products-info">
+                                <p class="products__info-name">Наименование</p>
+                                <p class="products__info-brand">Бренд:</p>
+                                <p class="products__info-country">Страна:</p>
+                                <p class="products__info-stock">В наличии <svg width="15" height="15"
+                                        viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M2.5 8.125L5.625 11.25L12.5 4.375" stroke="#4798DE"
+                                            stroke-linecap="square" />
+                                    </svg>
+                                </p>
+                                <h2 class="products__info-price">8000 грн</h2>
                             </div>
-                            <div class="main__products-price-icons">
-                                <a href="#">
-                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M12.5007 21.875L10.9902 20.5262C5.62565 15.7544 2.08398 12.6073 2.08398 8.74489C2.08398 5.59775 4.60482 3.125 7.81315 3.125C9.62565 3.125 11.3652 3.95266 12.5007 5.26056C13.6361 3.95266 15.3757 3.125 17.1882 3.125C20.3965 3.125 22.9173 5.59775 22.9173 8.74489C22.9173 12.6073 19.3757 15.7544 14.0111 20.5364L12.5007 21.875Z"
-                                            stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
-                                    </svg>
-                                </a>
-                                <a href="#">
-                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M5 25H25" stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
-                                        <path d="M7.5 25L7.5 11.25H12.5V25" stroke="#4798DE" stroke-width="2"
-                                            stroke-linecap="square" />
-                                        <path d="M12.5 25L12.5 6.25H17.5V25" stroke="#4798DE" stroke-width="2"
-                                            stroke-linecap="square" />
-                                        <path d="M17.5 25V15H22.5V25" stroke="#4798DE" stroke-width="2"
-                                            stroke-linecap="square" />
-                                    </svg>
-                                </a>
+                            <div class="main__products-price">
+                                <a class="main__products-price-buttons" href="#">В корзину</a>
+                                <div class="main__products-price-icons">
+                                    <a href="#">
+                                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.5007 21.875L10.9902 20.5262C5.62565 15.7544 2.08398 12.6073 2.08398 8.74489C2.08398 5.59775 4.60482 3.125 7.81315 3.125C9.62565 3.125 11.3652 3.95266 12.5007 5.26056C13.6361 3.95266 15.3757 3.125 17.1882 3.125C20.3965 3.125 22.9173 5.59775 22.9173 8.74489C22.9173 12.6073 19.3757 15.7544 14.0111 20.5364L12.5007 21.875Z"
+                                                stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
+                                        </svg>
+                                    </a>
+                                    <a href="#">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5 25H25" stroke="#4798DE" stroke-width="2"
+                                                stroke-linecap="square" />
+                                            <path d="M7.5 25L7.5 11.25H12.5V25" stroke="#4798DE" stroke-width="2"
+                                                stroke-linecap="square" />
+                                            <path d="M12.5 25L12.5 6.25H17.5V25" stroke="#4798DE" stroke-width="2"
+                                                stroke-linecap="square" />
+                                            <path d="M17.5 25V15H22.5V25" stroke="#4798DE" stroke-width="2"
+                                                stroke-linecap="square" />
+                                        </svg>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -375,38 +387,44 @@
                             <img class="main__products-image" src="/image/product-3.png" alt="product-3" loading="lazy">
                             <!-- <p class="main__products-text">ХИТ ПРОДАЖ</p> -->
                         </a>
-                        <div class="main__products-info">
-                            <p class="products__info-name">Наименование</p>
-                            <p class="products__info-brand">Бренд:</p>
-                            <p class="products__info-country">Страна:</p>
-                            <p class="products__info-stock">В наличии</p>
-                            <h2 class="products__info-price">8000 грн</h2>
-                        </div>
-                        <div class="main__products-price">
-                            <div class="main__products-price-buttons">
-                                <a href="#">В корзину</a>
+                        <div class="main__products-container">
+                            <div class="main__products-info">
+                                <p class="products__info-name">Наименование</p>
+                                <p class="products__info-brand">Бренд:</p>
+                                <p class="products__info-country">Страна:</p>
+                                <p class="products__info-stock">В наличии <svg width="15" height="15"
+                                        viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M2.5 8.125L5.625 11.25L12.5 4.375" stroke="#4798DE"
+                                            stroke-linecap="square" />
+                                    </svg>
+                                </p>
+                                <h2 class="products__info-price">8000 грн</h2>
                             </div>
-                            <div class="main__products-price-icons">
-                                <a href="#">
-                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M12.5007 21.875L10.9902 20.5262C5.62565 15.7544 2.08398 12.6073 2.08398 8.74489C2.08398 5.59775 4.60482 3.125 7.81315 3.125C9.62565 3.125 11.3652 3.95266 12.5007 5.26056C13.6361 3.95266 15.3757 3.125 17.1882 3.125C20.3965 3.125 22.9173 5.59775 22.9173 8.74489C22.9173 12.6073 19.3757 15.7544 14.0111 20.5364L12.5007 21.875Z"
-                                            stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
-                                    </svg>
-                                </a>
-                                <a href="#">
-                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M5 25H25" stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
-                                        <path d="M7.5 25L7.5 11.25H12.5V25" stroke="#4798DE" stroke-width="2"
-                                            stroke-linecap="square" />
-                                        <path d="M12.5 25L12.5 6.25H17.5V25" stroke="#4798DE" stroke-width="2"
-                                            stroke-linecap="square" />
-                                        <path d="M17.5 25V15H22.5V25" stroke="#4798DE" stroke-width="2"
-                                            stroke-linecap="square" />
-                                    </svg>
-                                </a>
+                            <div class="main__products-price">
+                                <a class="main__products-price-buttons" href="#">В корзину</a>
+                                <div class="main__products-price-icons">
+                                    <a href="#">
+                                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.5007 21.875L10.9902 20.5262C5.62565 15.7544 2.08398 12.6073 2.08398 8.74489C2.08398 5.59775 4.60482 3.125 7.81315 3.125C9.62565 3.125 11.3652 3.95266 12.5007 5.26056C13.6361 3.95266 15.3757 3.125 17.1882 3.125C20.3965 3.125 22.9173 5.59775 22.9173 8.74489C22.9173 12.6073 19.3757 15.7544 14.0111 20.5364L12.5007 21.875Z"
+                                                stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
+                                        </svg>
+                                    </a>
+                                    <a href="#">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5 25H25" stroke="#4798DE" stroke-width="2"
+                                                stroke-linecap="square" />
+                                            <path d="M7.5 25L7.5 11.25H12.5V25" stroke="#4798DE" stroke-width="2"
+                                                stroke-linecap="square" />
+                                            <path d="M12.5 25L12.5 6.25H17.5V25" stroke="#4798DE" stroke-width="2"
+                                                stroke-linecap="square" />
+                                            <path d="M17.5 25V15H22.5V25" stroke="#4798DE" stroke-width="2"
+                                                stroke-linecap="square" />
+                                        </svg>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -415,38 +433,44 @@
                             <img class="main__products-image" src="/image/product-4.png" alt="product-4" loading="lazy">
                             <!-- <p class="main__products-text">ХИТ ПРОДАЖ</p> -->
                         </a>
-                        <div class="main__products-info">
-                            <p class="products__info-name">Наименование</p>
-                            <p class="products__info-brand">Бренд:</p>
-                            <p class="products__info-country">Страна:</p>
-                            <p class="products__info-stock">В наличии</p>
-                            <h2 class="products__info-price">8000 грн</h2>
-                        </div>
-                        <div class="main__products-price">
-                            <div class="main__products-price-buttons">
-                                <a href="#">В корзину</a>
+                        <div class="main__products-container">
+                            <div class="main__products-info">
+                                <p class="products__info-name">Наименование</p>
+                                <p class="products__info-brand">Бренд:</p>
+                                <p class="products__info-country">Страна:</p>
+                                <p class="products__info-stock">В наличии <svg width="15" height="15"
+                                        viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M2.5 8.125L5.625 11.25L12.5 4.375" stroke="#4798DE"
+                                            stroke-linecap="square" />
+                                    </svg>
+                                </p>
+                                <h2 class="products__info-price">8000 грн</h2>
                             </div>
-                            <div class="main__products-price-icons">
-                                <a href="#">
-                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M12.5007 21.875L10.9902 20.5262C5.62565 15.7544 2.08398 12.6073 2.08398 8.74489C2.08398 5.59775 4.60482 3.125 7.81315 3.125C9.62565 3.125 11.3652 3.95266 12.5007 5.26056C13.6361 3.95266 15.3757 3.125 17.1882 3.125C20.3965 3.125 22.9173 5.59775 22.9173 8.74489C22.9173 12.6073 19.3757 15.7544 14.0111 20.5364L12.5007 21.875Z"
-                                            stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
-                                    </svg>
-                                </a>
-                                <a href="#">
-                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M5 25H25" stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
-                                        <path d="M7.5 25L7.5 11.25H12.5V25" stroke="#4798DE" stroke-width="2"
-                                            stroke-linecap="square" />
-                                        <path d="M12.5 25L12.5 6.25H17.5V25" stroke="#4798DE" stroke-width="2"
-                                            stroke-linecap="square" />
-                                        <path d="M17.5 25V15H22.5V25" stroke="#4798DE" stroke-width="2"
-                                            stroke-linecap="square" />
-                                    </svg>
-                                </a>
+                            <div class="main__products-price">
+                                <a class="main__products-price-buttons" href="#">В корзину</a>
+                                <div class="main__products-price-icons">
+                                    <a href="#">
+                                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12.5007 21.875L10.9902 20.5262C5.62565 15.7544 2.08398 12.6073 2.08398 8.74489C2.08398 5.59775 4.60482 3.125 7.81315 3.125C9.62565 3.125 11.3652 3.95266 12.5007 5.26056C13.6361 3.95266 15.3757 3.125 17.1882 3.125C20.3965 3.125 22.9173 5.59775 22.9173 8.74489C22.9173 12.6073 19.3757 15.7544 14.0111 20.5364L12.5007 21.875Z"
+                                                stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
+                                        </svg>
+                                    </a>
+                                    <a href="#">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5 25H25" stroke="#4798DE" stroke-width="2"
+                                                stroke-linecap="square" />
+                                            <path d="M7.5 25L7.5 11.25H12.5V25" stroke="#4798DE" stroke-width="2"
+                                                stroke-linecap="square" />
+                                            <path d="M12.5 25L12.5 6.25H17.5V25" stroke="#4798DE" stroke-width="2"
+                                                stroke-linecap="square" />
+                                            <path d="M17.5 25V15H22.5V25" stroke="#4798DE" stroke-width="2"
+                                                stroke-linecap="square" />
+                                        </svg>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -459,73 +483,120 @@
     </main>
     <div class="advertising">
         <div class="container">
-            <div class="advertising-container">
-                <div class="advertising-container-items">
-                    <div class="advertising-item">
-                        <h1>2К</h1>
-                        <p>наименований продукции</p>
+            <div class="advertising__container">
+                <div class="advertising__container-items">
+                    <div class="advertising__container-item">
+                        <h1 class="advertising__container-item-title">2К</h1>
+                        <p class="advertising__container-item-text">наименований продукции</p>
                     </div>
-                    <div class="advertising-item">
-                        <h1>30</h1>
-                        <p>
-                            брендов
-                            работают с нами</p>
+                    <div class="advertising__container-item">
+                        <h1 class="advertising__container-item-title">30</h1>
+                        <p class="advertising__container-item-text"> брендов работают с нами</p>
                     </div>
                 </div>
-                <div class="advertising-container-text">
-                    <h2>Мы не просто продаем товары для ванной - мы помогаем вам найти лучшее решение.</h2>
-                    <div class="advertising-container-description">
-                        <div class="advertising-description-item">
-                            <div class="description-item-image">IMAGE</div>
-                            <div class="description-item-text">
-                                <span>ДОСТАВКА</span>
-                                <p>Доставим товар в удобное для вас время</p>
-                            </div>
+                <div class="advertising__container-text">
+                    <div class="advertising__container-title">
+                        <h2 class="advertising__container-title-text">Мы не просто продаем товары для ванной - мы
+                            помогаем вам найти лучшее решение.</h2>
+                    </div>
+                    <div class="advertising__container-description">
+                        <svg class="description__item-image" width="80" height="80" viewBox="0 0 80 80" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.3327 56.6666H6.66602V23.3333H49.9993V56.6666H26.666" stroke="#4798DE"
+                                stroke-width="3" stroke-linecap="square" />
+                            <path d="M66.6667 56.6667H73.3333V41.852L66.6667 30H50V56.6667H53.3333" stroke="#4798DE"
+                                stroke-width="3" stroke-linecap="square" />
+                            <path
+                                d="M20.0007 63.3333C23.6826 63.3333 26.6673 60.3486 26.6673 56.6667C26.6673 52.9848 23.6826 50 20.0007 50C16.3188 50 13.334 52.9848 13.334 56.6667C13.334 60.3486 16.3188 63.3333 20.0007 63.3333Z"
+                                stroke="#4798DE" stroke-width="3" stroke-linecap="square" />
+                            <path
+                                d="M60.0006 63.3333C63.6825 63.3333 66.6673 60.3486 66.6673 56.6667C66.6673 52.9848 63.6825 50 60.0006 50C56.3188 50 53.334 52.9848 53.334 56.6667C53.334 60.3486 56.3188 63.3333 60.0006 63.3333Z"
+                                stroke="#4798DE" stroke-width="3" stroke-linecap="square" />
+                        </svg>
+                        <div class="description__item">
+                            <span class="description__item-title">ДОСТАВКА</span>
+                            <p class="description__item-text">Доставим товар в удобное для вас время</p>
                         </div>
                     </div>
-                    <div class="advertising-container-description">
-                        <div class="advertising-description-item">
-                            <div class="description-item-image">IMAGE</div>
-                            <div class="description-item-text">
-                                <span>САМОВЫВОЗ</span>
-                                <p>Вы можете самостоятельно забрать заказ в пункте самовывоза.</p>
-                            </div>
+                    <div class="advertising__container-description">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19.9994 56.6667H59.9994M16.666 36.6667L23.3327 16.6667H56.666L63.3327 36.6667H16.666ZM16.666 36.6667H63.3327H16.666ZM16.666 36.6667V56.6667V36.6667ZM63.3327 36.6667V56.6667V36.6667ZM16.666 56.6667V63.3334H19.9994V56.6667H16.666ZM16.666 56.6667H19.9994H16.666ZM63.3327 56.6667V63.3334H59.9994V56.6667H63.3327ZM63.3327 56.6667H59.9994H63.3327Z"
+                                stroke="#4798DE" stroke-width="3" stroke-linecap="square" />
+                            <path
+                                d="M26.6673 49.9999C28.5083 49.9999 30.0007 48.5075 30.0007 46.6666C30.0007 44.8256 28.5083 43.3333 26.6673 43.3333C24.8264 43.3333 23.334 44.8256 23.334 46.6666C23.334 48.5075 24.8264 49.9999 26.6673 49.9999Z"
+                                stroke="#4798DE" stroke-width="3" stroke-linecap="square" />
+                            <path
+                                d="M53.3333 49.9999C55.1743 49.9999 56.6667 48.5075 56.6667 46.6666C56.6667 44.8256 55.1743 43.3333 53.3333 43.3333C51.4924 43.3333 50 44.8256 50 46.6666C50 48.5075 51.4924 49.9999 53.3333 49.9999Z"
+                                stroke="#4798DE" stroke-width="3" stroke-linecap="square" />
+                        </svg>
+                        <div class="description__item">
+                            <span class="description__item-title">САМОВЫВОЗ</span>
+                            <p class="description__item-text">Вы можете самостоятельно забрать заказ в пункте
+                                самовывоза.</p>
                         </div>
                     </div>
-                    <div class="advertising-container-description">
-                        <div class="advertising-description-item">
-                            <div class="description-item-image">IMAGE</div>
-                            <div class="description-item-text">
-                                <span>ШИРОКИЙ АССОРТИМЕНТ ТОВАРОВ</span>
-                                <p>У нас найдется все.</p>
-                            </div>
+                    <div class="advertising__container-description">
+                        <svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_5_4547)">
+                                <path d="M59.5827 5.84668H5.41602V59.1113H59.5827V5.84668Z" stroke="#4798DE"
+                                    stroke-width="3" stroke-linecap="square" />
+                                <path
+                                    d="M29.791 45.7951H46.041M29.791 19.1628H46.041H29.791ZM29.791 32.479H46.041H29.791Z"
+                                    stroke="#4798DE" stroke-width="3" stroke-linecap="square" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_5_4547">
+                                    <rect width="65" height="63.9175" fill="white" transform="translate(0 0.520264)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <div class="description__item">
+                            <span class="description__item-title">ШИРОКИЙ АССОРТИМЕНТ ТОВАРОВ</span>
+                            <p class="description__item-text">У нас найдется все.</p>
                         </div>
                     </div>
-                    <div class="advertising-container-description">
-                        <div class="advertising-description-item">
-                            <div class="description-item-image">IMAGE</div>
-                            <div class="description-item-text">
-                                <span>КЛИЕНТСКИЙ СЕРВИС</span>
-                                <p>Оказываем поддержку на всех этапах покупки товара</p>
-                            </div>
+                    <div class="advertising__container-description">
+                        <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M61.25 35H55.4167C52.195 35 49.5833 37.6117 49.5833 40.8333V46.6667C49.5833 49.8883 52.195 52.5 55.4167 52.5C58.6383 52.5 61.25 49.8883 61.25 46.6667V35ZM61.25 35C61.25 20.5025 49.4975 8.75 35 8.75C20.5025 8.75 8.75 20.5025 8.75 35V46.6667C8.75 49.8883 11.3617 52.5 14.5833 52.5C17.805 52.5 20.4167 49.8883 20.4167 46.6667V40.8333C20.4167 37.6117 17.805 35 14.5833 35H8.75"
+                                stroke="#4798DE" stroke-width="3" stroke-linecap="square" />
+                            <path
+                                d="M61.2507 40.8333V52.4999C61.2507 58.3333 59.3062 61.2499 55.4173 61.2499C51.5284 61.2499 46.6673 61.2499 40.834 61.2499"
+                                stroke="#4798DE" stroke-width="3" stroke-linecap="square" />
+                        </svg>
+                        <div class="description__item">
+                            <span class="description__item-title">КЛИЕНТСКИЙ СЕРВИС</span>
+                            <p class="description__item-text">Оказываем поддержку на всех этапах покупки товара</p>
                         </div>
                     </div>
-                    <div class="advertising-container-description">
-                        <div class="advertising-description-item">
-                            <div class="description-item-image">IMAGE</div>
-                            <div class="description-item-text">
-                                <span>ГАРАНТИЯ КАЧЕСТВА</span>
-                                <p>Соответствуем требованиям и стандартам качества</p>
-                            </div>
+                    <div class="advertising__container-description">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M26.666 29.1328C26.666 27.5414 27.2353 26.0025 28.271 24.7942L44.2407 6.16293C45.6661 4.49996 48.0403 4.0205 49.9994 5.00001C51.912 5.95634 52.8304 8.17354 52.1542 10.2022L46.666 26.6667H62.0113C62.4112 26.6667 62.8103 26.7027 63.2038 26.7742C66.8263 27.4328 69.229 30.9034 68.5704 34.5259L64.328 57.8592C63.7516 61.0292 60.9907 63.3333 57.7688 63.3333H33.3327C29.6508 63.3333 26.666 60.3486 26.666 56.6667V29.1328Z"
+                                stroke="#4798DE" stroke-width="3" stroke-linecap="square" />
+                            <path d="M13.334 60V30" stroke="#4798DE" stroke-width="3" stroke-linecap="square" />
+                        </svg>
+                        <div class="description__item">
+                            <span class="description__item-title">ГАРАНТИЯ КАЧЕСТВА</span>
+                            <p class="description__item-text">Соответствуем требованиям и стандартам качества</p>
                         </div>
                     </div>
-                    <div class="advertising-container-description">
-                        <div class="advertising-description-item">
-                            <div class="description-item-image">IMAGE</div>
-                            <div class="description-item-text">
-                                <span>АКЦИИ И СКИДКИ </span>
-                                <p>Постоянным клиентам акции и скидки</p>
-                            </div>
+                    <div class="advertising__container-description">
+                        <svg width="48" height="52" viewBox="0 0 48 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line y1="-1.5" x2="62.757" y2="-1.5"
+                                transform="matrix(0.621445 -0.783458 0.793474 0.608604 5 51.7561)" stroke="#4798DE"
+                                stroke-width="3" />
+                            <path
+                                d="M37.5 30.6392C42.3677 30.6392 46.5 34.924 46.5 40.4478C46.4999 45.9715 42.3677 50.2563 37.5 50.2563C32.6323 50.2563 28.5001 45.9715 28.5 40.4478C28.5 34.924 32.6323 30.6392 37.5 30.6392Z"
+                                stroke="#4798DE" stroke-width="3" />
+                            <path
+                                d="M10.5 3.10522C15.3677 3.10522 19.5 7.38994 19.5 12.9138C19.5 18.4377 15.3677 22.7224 10.5 22.7224C5.63229 22.7224 1.5 18.4377 1.5 12.9138C1.5 7.38994 5.63229 3.10522 10.5 3.10522Z"
+                                stroke="#4798DE" stroke-width="3" />
+                        </svg>
+                        <div class="description__item">
+                            <span class="description__item-title">АКЦИИ И СКИДКИ </span>
+                            <p class="description__item-text">Постоянным клиентам акции и скидки</p>
                         </div>
                     </div>
                 </div>
@@ -536,27 +607,66 @@
         <div class="container">
             <div class="info__slider">
                 <div class="info__slider-menu">
-                    <div class="info__slider-slide">
-                        <span>ПРОИЗВОДИТЕЛИ</span>
-                    </div>
-                    <div class="info__slider-slide">
-                        <span>АКЦИИ</span>
-                    </div>
-                    <div class="info__slider-slide">
-                        <span>ОПЛАТА</span>
-                    </div>
-                    <div class="info__slider-slide">
-                        <span>ВАННЫ ROCA</span>
-                    </div>
-                    <div class="info__slider-slide">
-                        <span>ДАРИМ ПОДАРКИ</span>
-                    </div>
-                    <div class="info__slider-slide">
-                        <span>ВЫБРАТЬ ВАННУ</span>
-                    </div>
+                    <a href="#" class="info__slider-slide">
+                        <img class="info__slider-slide-image" src="/image/info-slide-1.png" alt="slide">
+                        <span class="info__slider-slide-text">ПРОИЗВОДИТЕЛИ</span>
+                    </a>
+                    <a href="#" class="info__slider-slide">
+                        <img class="info__slider-slide-image" src="/image/info-slide-2.png" alt="slide">
+                        <span class="info__slider-slide-text">АКЦИИ</span>
+                    </a>
+                    <a href="#" class="info__slider-slide">
+                        <img class="info__slider-slide-image" src="/image/info-slide-3.png" alt="slide">
+                        <span class="info__slider-slide-text">ОПЛАТА</span>
+                    </a>
+                    <a href="#" class="info__slider-slide">
+                        <img class="info__slider-slide-image" src="/image/info-slide-4.png" alt="slide">
+                        <span class="info__slider-slide-text">ВАННЫ ROCA</span>
+                    </a>
+                    <a href="#" class="info__slider-slide">
+                        <img class="info__slider-slide-image" src="/image/info-slide-5.png" alt="slide">
+                        <span class="info__slider-slide-text">ДАРИМ ПОДАРКИ</span>
+                    </a>
+                    <a href="#" class="info__slider-slide">
+                        <img class="info__slider-slide-image" src="/image/info-slide-6.png" alt="slide">
+                        <span class="info__slider-slide-text">ВЫБРАТЬ ВАННУ</span>
+                    </a>
                 </div>
-                <div class="info__slider-switch slider-switch">
-                    <h1><- ******** -></h1>
+                <div class="slider-switch">
+                    <svg class="slider__switch-arrow" width="16" height="25" viewBox="0 0 16 25" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.0059 22.9814L3.00586 12.1609L14.0059 1.94153" stroke="#4798DE" stroke-width="3" />
+                    </svg>
+                    <div>
+                        <label class="slider__switch-elem">
+                            <input class="slider__custom-radio" type="radio" name="info" value="1" checked />
+                            <span class="slider__radio-mark"></span>
+                        </label>
+                        <label class="slider__switch-elem">
+                            <input class="slider__custom-radio" type="radio" name="info" value="1" />
+                            <span class="slider__radio-mark"></span>
+                        </label>
+                        <label class="slider__switch-elem">
+                            <input class="slider__custom-radio" type="radio" name="info" value="1" />
+                            <span class="slider__radio-mark"></span>
+                        </label>
+                        <label class="slider__switch-elem">
+                            <input class="slider__custom-radio" type="radio" name="info" value="1" />
+                            <span class="slider__radio-mark"></span>
+                        </label>
+                        <label class="slider__switch-elem">
+                            <input class="slider__custom-radio" type="radio" name="info" value="1" />
+                            <span class="slider__radio-mark"></span>
+                        </label>
+                        <label class="slider__switch-elem">
+                            <input class="slider__custom-radio" type="radio" name="info" value="1" />
+                            <span class="slider__radio-mark"></span>
+                        </label>
+                    </div>
+                    <svg class="slider__switch-arrow" width="16" height="25" viewBox="0 0 16 25" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.00586 1.94043L13.0059 12.761L2.00586 22.9805" stroke="#4798DE" stroke-width="3" />
+                    </svg>
                 </div>
             </div>
         </div>
@@ -564,64 +674,67 @@
     <div class="popular">
         <div class="container">
             <div class="popular__header">
-                <p>Популярные категории</p>
+                <p class="popular__header-text">Популярные категории</p>
             </div>
             <div class="popular__categories">
-                <div class="popular__category">
-                    <img class="popular__img" src="" alt="">
-                    <span class="popular__text">РАКОВИНЫ</span>
-                </div>
-                <div class="popular__category">
-                    <img class="popular__img" src="" alt="">
-                    <span class="popular__text">УНИТАЗЫ</span>
-                </div>
-                <div class="popular__category">
-                    <img class="popular__img" src="" alt="">
-                    <span class="popular__text">СМЕСИТЕЛИ</span>
-                </div>
-                <div class="popular__category">
-                    <img class="popular__img" src="" alt="">
-                    <span class="popular__text">СИСТЕМЫ ИНСТАЛЛЯЦИИ</span>
-                </div>
-                <div class="popular__category">
-                    <img class="popular__img" src="" alt="">
-                    <span class="popular__text">ВАННЫ</span>
-                </div>
-                <div class="popular__category">
-                    <img class="popular__img" src="" alt="">
-                    <span class="popular__text">МЕБЕЛЬ ДЛЯ ВАННЫХ КОМНАТ</span>
-                </div>
-                <div class="popular__category">
-                    <img class="popular__img" src="" alt="">
-                    <span class="popular__text">ДУШЕВЫЕ УГЛЫ И ОГРАЖДЕНИЯ</span>
-                </div>
-                <div class="popular__category">
-                    <img class="popular__img" src="" alt="">
-                    <span class="popular__text">АКСЕССУАРЫ ДЛЯ ВАННЫХ КОМНАТ</span>
-                </div>
+                <a href="#" class="popular__category">
+                    <img class="popular__category-img" src="/image/popular-image-1.png" alt="popular">
+                    <span class="popular__caregory-text">РАКОВИНЫ</span>
+                </a>
+                <a href="#" class="popular__category">
+                    <img class="popular__category-img" src="/image/popular-image-2.png" alt="popular">
+                    <span class="popular__caregory-text">УНИТАЗЫ</span>
+                </a>
+                <a href="#" class="popular__category">
+                    <img class="popular__category-img" src="/image/popular-image-3.png" alt="popular">
+                    <span class="popular__caregory-text">СМЕСИТЕЛИ</span>
+                </a>
+                <a href="#" class="popular__category">
+                    <img class="popular__category-img" src="/image/popular-image-4.png" alt="popular">
+                    <span class="popular__caregory-text">СИСТЕМЫ ИНСТАЛЛЯЦИИ</span>
+                </a>
+                <a href="#" class="popular__category">
+                    <img class="popular__category-img" src="/image/popular-image-5.png" alt="popular">
+                    <span class="popular__caregory-text">ВАННЫ</span>
+                </a>
+                <a href="#" class="popular__category">
+                    <img class="popular__category-img" src="/image/popular-image-6.png" alt="popular">
+                    <span class="popular__caregory-text">МЕБЕЛЬ ДЛЯ ВАННЫХ КОМНАТ</span>
+                </a>
+                <a href="#" class="popular__category">
+                    <img class="popular__category-img" src="/image/popular-image-7.png" alt="popular">
+                    <span class="popular__caregory-text">ДУШЕВЫЕ УГЛЫ И ОГРАЖДЕНИЯ</span>
+                </a>
+                <a href="#" class="popular__category">
+                    <img class="popular__category-img" src="/image/popular-image-8.png" alt="popular">
+                    <span class="popular__caregory-text">АКСЕССУАРЫ ДЛЯ ВАННЫХ КОМНАТ</span>
+                </a>
             </div>
         </div>
     </div>
     <footer class="footer">
         <div class="container grid">
-            <div class="grid__left1">
+            <div class="footer__social">
                 <a class="footer__logo" href="#">
                     <img src="/image/logo.png" alt="Logo">
                 </a>
-                <p>Мы в социальных сетях</p>
-                <div class="footer__icon">
-                    <a href="#">ICON</a>
-                    <a href="#">ICON</a>
-                    <a href="#">ICON</a>
+                <div class="footer__social-items">
+                    <p class="footer__social-text">Мы в социальных сетях</p>
+                    <div class="footer__social-icon">
+                        <a href="#"><img src="/image/instagram.png" alt="social"></a>
+                        <a href="#"><img src="/image/instagram.png" alt="social"></a>
+                        <a href="#"><img src="/image/instagram.png" alt="social"></a>
+                    </div>
                 </div>
-                <p>Мы принимаем</p>
-                <div class="footer__cards">
-                    <a href="#">ICON</a>
-                    <a href="#">ICON</a>
-                    <a href="#">ICON</a>
+                <div class="footer__social-items">
+                    <p class="footer__social-text">Мы принимаем</p>
+                    <div class="footer__social-cards">
+                        <a href="#"><img src="/image/Visa.png" alt="vs"></a>
+                        <a href="#"><img src="/image/MC.png" alt="mc"></a>
+                    </div>
                 </div>
             </div>
-            <div class="grid__left2">
+            <div class="footer__buyer">
                 <span class="footer__description">ПОКУПАТЕЛЮ</span>
                 <a class="footer__links" href="#">Доставка</a>
                 <a class="footer__links" href="#">Оплата</a>
@@ -629,7 +742,7 @@
                 <a class="footer__links" href="#">Производители</a>
                 <a class="footer__links" href="#">Статьи</a>
             </div>
-            <div class="grid__right1">
+            <div class="footer__company">
                 <span class="footer__description">КОМПАНИЯ</span>
                 <a class="footer__links" href="#">О нас</a>
                 <a class="footer__links" href="#">Контакты</a>
@@ -637,19 +750,50 @@
                 <a class="footer__links" href="#">Политика конфиденциальности</a>
                 <a class="footer__links" href="#">Обратная связь</a>
             </div>
-            <div class="grid__right2">
+            <div class="footer__contact">
                 <span class="footer__description">КОНТАКТЫ</span>
-                <a class="footer__links" href="tel:+38000000000">+38 (000) 000-00-00</a>
-                <a class="footer__links" href="#">zakaz@gmail.com</a>
-                <a href="#">г.Киев</a>
+                <div class="footer__contact-item">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.2168 4.02704C11.7553 4.7429 12.8692 5.66355 13.9736 8.7838" stroke="#6CDB7E" />
+                        <path d="M9.64844 1C13.8044 2.24486 15.5955 3.62443 16.9998 8.35135" stroke="#6CDB7E" />
+                        <path
+                            d="M1.36701 3.66002L2.49543 2.5316C2.86982 2.15721 3.47116 2.13954 3.8669 2.4913L6.33012 4.68083C6.73362 5.0395 6.77959 5.65369 6.43397 6.06842L5.40832 7.29921C5.10695 7.66085 5.09784 8.18441 5.39031 8.55329C6.80781 10.3412 7.85744 11.4818 9.85609 12.7177C10.2397 12.9549 10.7348 12.8868 11.0537 12.5679L11.5361 12.0855C11.9267 11.695 12.5598 11.695 12.9503 12.0855L14.9956 14.1307C15.3861 14.5213 15.3861 15.1544 14.9956 15.5449L13.952 16.5886C13.6976 16.8429 13.3234 16.941 12.9776 16.842C5.30428 14.6433 2.47876 11.9303 1.09275 4.5407C1.03276 4.22087 1.13691 3.89012 1.36701 3.66002Z"
+                            stroke="#6CDB7E" />
+                    </svg>
+                    <a class="footer__links" href="tel:+38000000000">+38 (000) 000-00-00</a>
+                </div>
+                <div class="footer__contact-item">
+                    <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.5" y="0.5" width="16" height="13" rx="2.5" fill="#F1F2F6" stroke="#6CDB7E" />
+                        <line y1="-0.5" x2="9.42078" y2="-0.5"
+                            transform="matrix(0.759799 0.650159 -0.666795 0.745241 0.894531 1.75)" stroke="#6CDB7E" />
+                        <path d="M8.18555 8.16846L15.2108 0.874938" stroke="#6CDB7E" />
+                    </svg>
+                    <a class="footer__links" href="#">zakaz@gmail.com</a>
+                </div>
+                <div class="footer__contact-item">
+                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="3.25781" y="1.33447" width="12.7865" height="14.4521" rx="2.5" fill="#F1F2F6"
+                            stroke="#6CDB7E" />
+                        <rect x="1.32812" y="1.33447" width="3.13599" height="14.4521" fill="#F1F2F6"
+                            stroke="#6CDB7E" />
+                        <path d="M6.75586 3.37305H13.6491" stroke="#6CDB7E" />
+                        <path d="M6.75586 6.68408H13.6491" stroke="#6CDB7E" />
+                        <path d="M6.75391 9.93994H11.0299" stroke="#6CDB7E" />
+                        <path d="M0 13.2236H2.75926" stroke="#6CDB7E" />
+                        <path d="M0 8.58838H2.75926" stroke="#6CDB7E" />
+                        <path d="M0 4.17285H2.75926" stroke="#6CDB7E" />
+                    </svg>
+                    <a class="footer__links" href="#">г.Киев</a>
+                </div>
             </div>
-            <div class="grid__column">
-                <form class="subscribe-form">
-                    <input type="email" id="subscribe-email" class="subscribe-form__input" placeholder="Введите e-mail"
-                        required />
-                    <button type="submit" class="subscribe-form__button">ПОДПИСАТЬСЯ</button>
+            <div class="footer__follow">
+                <form class="footer__follow-form">
+                    <input type="text" class="footer__follow-input" placeholder="Введите e-mail" />
+                    <a href="#" class="footer__follow-buttom">ПОДПИСАТЬСЯ</a>
                 </form>
-                <p>Станьте нашим подписчиком, чтобы быть в курсе информации о новинках и специальных предложениях.</p>
+                <p class="footer__follow-text">Станьте нашим подписчиком, чтобы быть в курсе информации </br> о новинках
+                    и специальных предложениях.</p>
             </div>
         </div>
     </footer>
