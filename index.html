@@ -135,7 +135,7 @@
             <div class="container">
                 <div class="header__slider-switch">
                     <label class="slider__switch-elem">
-                        <input class="slider__custom-radio" type="radio" name="option" value="1" checked/>
+                        <input class="slider__custom-radio" type="radio" name="option" value="1" checked />
                         <span class="slider__radio-mark"></span>
                     </label>
                     <label class="slider__switch-elem">
@@ -164,36 +164,62 @@
     </header>
     <div class="action">
         <div class="container">
-            <h1 class="action__stock">Stock</h1>
             <div class="action__top-menu">
                 <div class="action__name">
-                    <p>Акции</p>
+                    <p class="action__name-text">Акции</p>
                 </div>
-                <div class="action__all-actions"><a href="#">Все акции</a></div>
+                <div class="action__all-actions"><a class="action__all-actions-link" href="#">Все акции</a></div>
             </div>
             <div class="action__slider">
                 <div class="action__slider-menu">
-                    <div class="action__slider-slide">
-                        <div class="action__slider-text">
-                            <h3>Зимняя распродажа</h3>
-                            <h3>АКСЕСУАРЫ<span>-15%</span></h3>
-                        </div>
-                    </div>
-                    <div class="action__slider-slide">
-                        <div class="action__slider-text">
-                            <h3>Зимняя распродажа</h3>
-                            <h3>АКСЕСУАРЫ<span>-15%</span></h3>
-                        </div>
-                    </div>
-                    <div class="action__slider-slide">
-                        <div class="action__slider-text">
-                            <h3>Зимняя распродажа</h3>
-                            <h3>АКСЕСУАРЫ<span>-15%</span></h3>
-                        </div>
-                    </div>
+                    <a class="action__slider-link" href="#">
+                        <img class="action__slider-img" src="/image/action-1.png" alt="action-1.png"
+                            class="action__slider-image">
+                    </a>
+                    <a class="action__slider-link" href="#">
+                        <img class="action__slider-img" src="/image/action-2.png" alt="action-2.png"
+                            class="action__slider-image">
+                    </a>
+                    <a class="action__slider-link" href="#">
+                        <img class="action__slider-img" src="/image/action-3.png" alt="action-3.png"
+                            class="action__slider-image">
+                    </a>
                 </div>
-                <div class="action__slider-switch slider-switch">
-                    <h1><- ******** -></h1>
+                <div class="action__slider-switch">
+                    <svg class="slider__switch-arrow" width="16" height="25" viewBox="0 0 16 25" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.0059 22.9814L3.00586 12.1609L14.0059 1.94153" stroke="#4798DE" stroke-width="3" />
+                    </svg>
+                    <div>
+                        <label class="slider__switch-elem">
+                            <input class="slider__custom-radio" type="radio" name="option" value="1" checked />
+                            <span class="slider__radio-mark"></span>
+                        </label>
+                        <label class="slider__switch-elem">
+                            <input class="slider__custom-radio" type="radio" name="option" value="1" />
+                            <span class="slider__radio-mark"></span>
+                        </label>
+                        <label class="slider__switch-elem">
+                            <input class="slider__custom-radio" type="radio" name="option" value="1" />
+                            <span class="slider__radio-mark"></span>
+                        </label>
+                        <label class="slider__switch-elem">
+                            <input class="slider__custom-radio" type="radio" name="option" value="1" />
+                            <span class="slider__radio-mark"></span>
+                        </label>
+                        <label class="slider__switch-elem">
+                            <input class="slider__custom-radio" type="radio" name="option" value="1" />
+                            <span class="slider__radio-mark"></span>
+                        </label>
+                        <label class="slider__switch-elem">
+                            <input class="slider__custom-radio" type="radio" name="option" value="1" />
+                            <span class="slider__radio-mark"></span>
+                        </label>
+                    </div>
+                    <svg class="slider__switch-arrow" width="16" height="25" viewBox="0 0 16 25" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.00586 1.94043L13.0059 12.761L2.00586 22.9805" stroke="#4798DE" stroke-width="3" />
+                    </svg>
                 </div>
             </div>
         </div>
@@ -204,9 +230,36 @@
                 <div class="main__header-title">
                     <nav class="main__header-nav">
                         <ul class="main__header-list">
-                            <li class="main__list-item"><a class="main__list-link" href="#">ХИТЫ ПРОДАЖ</a></li>
-                            <li class="main__list-item"><a class="main__list-link" href="#">НОВИНКИ</a></li>
-                            <li class="main__list-item"><a class="main__list-link" href="#">% СКИДКИ</a></li>
+                            <li class="main__list-item">
+                                <a class="main__list-link" href="#">
+                                    <svg class="list__link-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.66602 7.28327C6.66602 6.88542 6.80834 6.50069 7.06725 6.19862L11.0597 1.54079C11.416 1.12505 12.0096 1.00519 12.4993 1.25006C12.9775 1.48915 13.2071 2.04345 13.0381 2.55061L11.666 6.66673H15.5023C15.6023 6.66673 15.7021 6.67573 15.8005 6.69361C16.7061 6.85827 17.3068 7.72591 17.1421 8.63154L16.0815 14.4649C15.9374 15.2574 15.2472 15.8334 14.4417 15.8334H8.33268C7.41221 15.8334 6.66602 15.0872 6.66602 14.1667V7.28327Z"
+                                            stroke="#6F7682" stroke-linecap="square" />
+                                        <path d="M3.33398 15V7.5" stroke="#6F7682" stroke-linecap="square" />
+                                    </svg>
+                                    <p class="list__link-text">ХИТЫ ПРОДАЖ</p>
+                                </a>
+                            </li>
+                            <li class="main__list-item">
+                                <a class="main__list-link" href="#">
+                                    <svg class="list__link-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="10" cy="10" r="9.5" fill="white" stroke="#6F7682" />
+                                        <path
+                                            d="M3.53956 8.90729L3.10756 8.09929H3.07556L3.15556 8.90729V12.5713H2.53156V6.88329H2.88356L5.56356 10.6193L5.97956 11.3873H6.01956L5.93156 10.6193V6.97129H6.55556V12.6593H6.20356L3.53956 8.90729ZM7.91438 6.97129H10.9624V7.56329H8.57838V9.39529H10.7624V9.98729H8.57838V11.9793H11.0024V12.5713H7.91438V6.97129ZM13.2994 10.7233L13.4274 11.6513H13.4354L13.5714 10.7073L14.7234 6.97129H15.0434L16.2034 10.7233L16.3394 11.6513H16.3474L16.4914 10.7073L17.4354 6.97129H18.0834L16.5234 12.6593H16.1554L15.0194 8.90729L14.8754 8.05929H14.8354L14.6914 8.91529L13.5554 12.6593H13.1874L11.5874 6.97129H12.2914L13.2994 10.7233Z"
+                                            fill="#6F7682" />
+                                    </svg>
+                                    <p class="list__link-text">НОВИНКИ</p>
+                                </a>
+                            </li>
+                            <li class="main__list-item">
+                                <a class="main__list-link" href="#">
+                                    <span class="list__link-icon">%</span>
+                                    <p class="list__link-text">СКИДКИ</p>
+                                </a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -218,7 +271,7 @@
                             <li class="main__categories-item"><a class="main__categories-link" href="#">Душ</a></li>
                             <li class="main__categories-item"><a class="main__categories-link" href="#">Душевые углы и
                                     ограждения</a></li>
-                            <li class="main__categories-item"><a class="main__categories-link" href="#">Мебель для
+                            <li class="main__categories-item"><a class="main__categories-link" href="#">Мебель для <br>
                                     ванных
                                     комнат</a></li>
                             <li class="main__categories-item"><a class="main__categories-link"
@@ -238,90 +291,162 @@
             <div class="main__content">
                 <div class="main__content-products">
                     <div class="main__products-block">
-                        <div class="main__products-image">
-                            <a href="#">ХИТ ПРОДАЖ</a>
-                        </div>
+                        <a class="main__products-link" href="#">
+                            <img class="main__products-image" src="/image/product-1.png" alt="product-1" loading="lazy">
+                            <!-- <p class="main__products-text">ХИТ ПРОДАЖ</p> -->
+                        </a>
                         <div class="main__products-info">
-                            <p>Наименование</p>
-                            <p>Бренд:
-                                Страна:
-                                <span>В наличии</span>
-                            </p>
-                            <h2>8000 грн</h2>
+                            <p class="products__info-name">Наименование</p>
+                            <p class="products__info-brand">Бренд:</p>
+                            <p class="products__info-country">Страна:</p>
+                            <p class="products__info-stock">В наличии</p>
+                            <h2 class="products__info-price">8000 грн</h2>
                         </div>
                         <div class="main__products-price">
                             <div class="main__products-price-buttons">
                                 <a href="#">В корзину</a>
                             </div>
                             <div class="main__products-price-icons">
-                                <a href="#">Icon</a>
-                                <a href="#">Icon</a>
+                                <a href="#">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12.5007 21.875L10.9902 20.5262C5.62565 15.7544 2.08398 12.6073 2.08398 8.74489C2.08398 5.59775 4.60482 3.125 7.81315 3.125C9.62565 3.125 11.3652 3.95266 12.5007 5.26056C13.6361 3.95266 15.3757 3.125 17.1882 3.125C20.3965 3.125 22.9173 5.59775 22.9173 8.74489C22.9173 12.6073 19.3757 15.7544 14.0111 20.5364L12.5007 21.875Z"
+                                            stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 25H25" stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
+                                        <path d="M7.5 25L7.5 11.25H12.5V25" stroke="#4798DE" stroke-width="2"
+                                            stroke-linecap="square" />
+                                        <path d="M12.5 25L12.5 6.25H17.5V25" stroke="#4798DE" stroke-width="2"
+                                            stroke-linecap="square" />
+                                        <path d="M17.5 25V15H22.5V25" stroke="#4798DE" stroke-width="2"
+                                            stroke-linecap="square" />
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="main__products-block">
-                        <div class="main__products-image">
-                            <a href="#">ХИТ ПРОДАЖ</a>
-                        </div>
+                        <a class="main__products-link" href="#">
+                            <img class="main__products-image" src="/image/product-2.png" alt="product-2" loading="lazy">
+                            <!-- <p class="main__products-text">ХИТ ПРОДАЖ</p> -->
+                        </a>
                         <div class="main__products-info">
-                            <p>Наименование</p>
-                            <p>Бренд:
-                                Страна:
-                                <span>В наличии</span>
-                            </p>
-                            <h2>8000 грн</h2>
+                            <p class="products__info-name">Наименование</p>
+                            <p class="products__info-brand">Бренд:</p>
+                            <p class="products__info-country">Страна:</p>
+                            <p class="products__info-stock">В наличии</p>
+                            <h2 class="products__info-price">8000 грн</h2>
                         </div>
                         <div class="main__products-price">
                             <div class="main__products-price-buttons">
                                 <a href="#">В корзину</a>
                             </div>
                             <div class="main__products-price-icons">
-                                <a href="#">Icon</a>
-                                <a href="#">Icon</a>
+                                <a href="#">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12.5007 21.875L10.9902 20.5262C5.62565 15.7544 2.08398 12.6073 2.08398 8.74489C2.08398 5.59775 4.60482 3.125 7.81315 3.125C9.62565 3.125 11.3652 3.95266 12.5007 5.26056C13.6361 3.95266 15.3757 3.125 17.1882 3.125C20.3965 3.125 22.9173 5.59775 22.9173 8.74489C22.9173 12.6073 19.3757 15.7544 14.0111 20.5364L12.5007 21.875Z"
+                                            stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 25H25" stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
+                                        <path d="M7.5 25L7.5 11.25H12.5V25" stroke="#4798DE" stroke-width="2"
+                                            stroke-linecap="square" />
+                                        <path d="M12.5 25L12.5 6.25H17.5V25" stroke="#4798DE" stroke-width="2"
+                                            stroke-linecap="square" />
+                                        <path d="M17.5 25V15H22.5V25" stroke="#4798DE" stroke-width="2"
+                                            stroke-linecap="square" />
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="main__products-block">
-                        <div class="main__products-image">
-                            <a href="#">ХИТ ПРОДАЖ</a>
-                        </div>
+                        <a class="main__products-link" href="#">
+                            <img class="main__products-image" src="/image/product-3.png" alt="product-3" loading="lazy">
+                            <!-- <p class="main__products-text">ХИТ ПРОДАЖ</p> -->
+                        </a>
                         <div class="main__products-info">
-                            <p>Наименование</p>
-                            <p>Бренд:
-                                Страна:
-                                <span>В наличии</span>
-                            </p>
-                            <h2>8000 грн</h2>
+                            <p class="products__info-name">Наименование</p>
+                            <p class="products__info-brand">Бренд:</p>
+                            <p class="products__info-country">Страна:</p>
+                            <p class="products__info-stock">В наличии</p>
+                            <h2 class="products__info-price">8000 грн</h2>
                         </div>
                         <div class="main__products-price">
                             <div class="main__products-price-buttons">
                                 <a href="#">В корзину</a>
                             </div>
                             <div class="main__products-price-icons">
-                                <a href="#">Icon</a>
-                                <a href="#">Icon</a>
+                                <a href="#">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12.5007 21.875L10.9902 20.5262C5.62565 15.7544 2.08398 12.6073 2.08398 8.74489C2.08398 5.59775 4.60482 3.125 7.81315 3.125C9.62565 3.125 11.3652 3.95266 12.5007 5.26056C13.6361 3.95266 15.3757 3.125 17.1882 3.125C20.3965 3.125 22.9173 5.59775 22.9173 8.74489C22.9173 12.6073 19.3757 15.7544 14.0111 20.5364L12.5007 21.875Z"
+                                            stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 25H25" stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
+                                        <path d="M7.5 25L7.5 11.25H12.5V25" stroke="#4798DE" stroke-width="2"
+                                            stroke-linecap="square" />
+                                        <path d="M12.5 25L12.5 6.25H17.5V25" stroke="#4798DE" stroke-width="2"
+                                            stroke-linecap="square" />
+                                        <path d="M17.5 25V15H22.5V25" stroke="#4798DE" stroke-width="2"
+                                            stroke-linecap="square" />
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="main__products-block">
-                        <div class="main__products-image">
-                            <a href="#">ХИТ ПРОДАЖ</a>
-                        </div>
+                        <a class="main__products-link" href="#">
+                            <img class="main__products-image" src="/image/product-4.png" alt="product-4" loading="lazy">
+                            <!-- <p class="main__products-text">ХИТ ПРОДАЖ</p> -->
+                        </a>
                         <div class="main__products-info">
-                            <p>Наименование</p>
-                            <p>Бренд:
-                                Страна:
-                                <span>В наличии</span>
-                            </p>
-                            <h2>8000 грн</h2>
+                            <p class="products__info-name">Наименование</p>
+                            <p class="products__info-brand">Бренд:</p>
+                            <p class="products__info-country">Страна:</p>
+                            <p class="products__info-stock">В наличии</p>
+                            <h2 class="products__info-price">8000 грн</h2>
                         </div>
                         <div class="main__products-price">
                             <div class="main__products-price-buttons">
                                 <a href="#">В корзину</a>
                             </div>
                             <div class="main__products-price-icons">
-                                <a href="#">Icon</a>
-                                <a href="#">Icon</a>
+                                <a href="#">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12.5007 21.875L10.9902 20.5262C5.62565 15.7544 2.08398 12.6073 2.08398 8.74489C2.08398 5.59775 4.60482 3.125 7.81315 3.125C9.62565 3.125 11.3652 3.95266 12.5007 5.26056C13.6361 3.95266 15.3757 3.125 17.1882 3.125C20.3965 3.125 22.9173 5.59775 22.9173 8.74489C22.9173 12.6073 19.3757 15.7544 14.0111 20.5364L12.5007 21.875Z"
+                                            stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 25H25" stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
+                                        <path d="M7.5 25L7.5 11.25H12.5V25" stroke="#4798DE" stroke-width="2"
+                                            stroke-linecap="square" />
+                                        <path d="M12.5 25L12.5 6.25H17.5V25" stroke="#4798DE" stroke-width="2"
+                                            stroke-linecap="square" />
+                                        <path d="M17.5 25V15H22.5V25" stroke="#4798DE" stroke-width="2"
+                                            stroke-linecap="square" />
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                     </div>
