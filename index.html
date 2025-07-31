@@ -15,7 +15,7 @@
                 <div class="header__nav">
                     <div class="header__logo-container">
                         <a href="#" class="header__logo">
-                            <img src="/image/logo.png" alt="Logo">
+                            <img class="header__logo-img" src="/image/logo.png" alt="Logo">
                         </a>
                     </div>
                     <nav class="header__nav-links">
@@ -32,6 +32,18 @@
                 </div>
                 <div class="header__auth">
                     <div class="header__auth-icon">
+                        <a class="header__icon-number" href="#">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.2168 4.16113C11.7553 4.87702 12.8692 5.7977 13.9736 8.91807"
+                                    stroke="#6CDB7E" />
+                                <path d="M9.64844 1.1333C13.8043 2.37821 15.5955 3.75784 16.9998 8.48494"
+                                    stroke="#6CDB7E" />
+                                <path
+                                    d="M1.36699 3.7928L2.49541 2.66433C2.86981 2.28992 3.47117 2.27225 3.86691 2.62403L6.33016 4.81367C6.73364 5.17233 6.77961 5.7865 6.43401 6.20123L5.40829 7.43215C5.10693 7.79379 5.09783 8.31733 5.39028 8.6862C6.80779 10.4742 7.85742 11.6149 9.85606 12.8508C10.2397 13.088 10.7348 13.02 11.0537 12.701L11.5361 12.2186C11.9266 11.828 12.5598 11.8281 12.9504 12.2186L14.9956 14.2639C15.3861 14.6545 15.3861 15.2876 14.9956 15.6781L13.952 16.7218C13.6976 16.9762 13.3234 17.0743 12.9776 16.9752C5.30426 14.7765 2.47875 12.0634 1.09274 4.67346C1.03276 4.35364 1.1369 4.0229 1.36699 3.7928Z"
+                                    stroke="#6CDB7E" />
+                            </svg>
+                        </a>
                         <a class="header__icon-link" href="#">
                             <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -112,12 +124,15 @@
                     </a>
                     <a class="shop__elem-link" href="#">
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M5 25H25" stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
-                            <path d="M7.5 25L7.5 11.25H12.5V25" stroke="#4798DE" stroke-width="2"
+                            <path d="M7.5 7.5H26.2499L24.3749 18.75H9.37499L7.5 7.5Z" stroke="#4798DE" stroke-width="2"
                                 stroke-linecap="square" />
-                            <path d="M12.5 25L12.5 6.25H17.5V25" stroke="#4798DE" stroke-width="2"
-                                stroke-linecap="square" />
-                            <path d="M17.5 25V15H22.5V25" stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
+                            <path
+                                d="M11.25 25C11.9403 25 12.5 24.4404 12.5 23.75C12.5 23.0596 11.9403 22.5 11.25 22.5C10.5596 22.5 10 23.0596 10 23.75C10 24.4404 10.5596 25 11.25 25Z"
+                                stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
+                            <path
+                                d="M22.5 25C23.1903 25 23.75 24.4404 23.75 23.75C23.75 23.0596 23.1903 22.5 22.5 22.5C21.8096 22.5 21.25 23.0596 21.25 23.75C21.25 24.4404 21.8096 25 22.5 25Z"
+                                stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
+                            <path d="M7.49998 7.5H3.75" stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
                         </svg>
                         <p class="shop__elem-text">Корзина</p>
                     </a>
@@ -306,11 +321,36 @@
                                             stroke-linecap="square" />
                                     </svg>
                                 </p>
-                                <h2 class="products__info-price">8000 грн</h2>
+                                <div class="main__products-price">
+                                    <h2 class="products__info-price">8000 грн</h2>
+                                    <div class="main__products-price-icons">
+                                        <a href="#">
+                                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.5007 21.875L10.9902 20.5262C5.62565 15.7544 2.08398 12.6073 2.08398 8.74489C2.08398 5.59775 4.60482 3.125 7.81315 3.125C9.62565 3.125 11.3652 3.95266 12.5007 5.26056C13.6361 3.95266 15.3757 3.125 17.1882 3.125C20.3965 3.125 22.9173 5.59775 22.9173 8.74489C22.9173 12.6073 19.3757 15.7544 14.0111 20.5364L12.5007 21.875Z"
+                                                    stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
+                                            </svg>
+                                        </a>
+                                        <a href="#">
+                                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5 25H25" stroke="#4798DE" stroke-width="2"
+                                                    stroke-linecap="square" />
+                                                <path d="M7.5 25L7.5 11.25H12.5V25" stroke="#4798DE" stroke-width="2"
+                                                    stroke-linecap="square" />
+                                                <path d="M12.5 25L12.5 6.25H17.5V25" stroke="#4798DE" stroke-width="2"
+                                                    stroke-linecap="square" />
+                                                <path d="M17.5 25V15H22.5V25" stroke="#4798DE" stroke-width="2"
+                                                    stroke-linecap="square" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                             <div class="main__products-price">
                                 <a class="main__products-price-buttons" href="#">В корзину</a>
-                                <div class="main__products-price-icons">
+                                <div class="main__products-price-icons-fullscreen">
                                     <a href="#">
                                         <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -352,11 +392,36 @@
                                             stroke-linecap="square" />
                                     </svg>
                                 </p>
-                                <h2 class="products__info-price">8000 грн</h2>
+                                <div class="main__products-price">
+                                    <h2 class="products__info-price">8000 грн</h2>
+                                    <div class="main__products-price-icons">
+                                        <a href="#">
+                                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.5007 21.875L10.9902 20.5262C5.62565 15.7544 2.08398 12.6073 2.08398 8.74489C2.08398 5.59775 4.60482 3.125 7.81315 3.125C9.62565 3.125 11.3652 3.95266 12.5007 5.26056C13.6361 3.95266 15.3757 3.125 17.1882 3.125C20.3965 3.125 22.9173 5.59775 22.9173 8.74489C22.9173 12.6073 19.3757 15.7544 14.0111 20.5364L12.5007 21.875Z"
+                                                    stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
+                                            </svg>
+                                        </a>
+                                        <a href="#">
+                                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5 25H25" stroke="#4798DE" stroke-width="2"
+                                                    stroke-linecap="square" />
+                                                <path d="M7.5 25L7.5 11.25H12.5V25" stroke="#4798DE" stroke-width="2"
+                                                    stroke-linecap="square" />
+                                                <path d="M12.5 25L12.5 6.25H17.5V25" stroke="#4798DE" stroke-width="2"
+                                                    stroke-linecap="square" />
+                                                <path d="M17.5 25V15H22.5V25" stroke="#4798DE" stroke-width="2"
+                                                    stroke-linecap="square" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                             <div class="main__products-price">
                                 <a class="main__products-price-buttons" href="#">В корзину</a>
-                                <div class="main__products-price-icons">
+                                <div class="main__products-price-icons-fullscreen">
                                     <a href="#">
                                         <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -398,11 +463,36 @@
                                             stroke-linecap="square" />
                                     </svg>
                                 </p>
-                                <h2 class="products__info-price">8000 грн</h2>
+                                <div class="main__products-price">
+                                    <h2 class="products__info-price">8000 грн</h2>
+                                    <div class="main__products-price-icons">
+                                        <a href="#">
+                                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.5007 21.875L10.9902 20.5262C5.62565 15.7544 2.08398 12.6073 2.08398 8.74489C2.08398 5.59775 4.60482 3.125 7.81315 3.125C9.62565 3.125 11.3652 3.95266 12.5007 5.26056C13.6361 3.95266 15.3757 3.125 17.1882 3.125C20.3965 3.125 22.9173 5.59775 22.9173 8.74489C22.9173 12.6073 19.3757 15.7544 14.0111 20.5364L12.5007 21.875Z"
+                                                    stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
+                                            </svg>
+                                        </a>
+                                        <a href="#">
+                                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5 25H25" stroke="#4798DE" stroke-width="2"
+                                                    stroke-linecap="square" />
+                                                <path d="M7.5 25L7.5 11.25H12.5V25" stroke="#4798DE" stroke-width="2"
+                                                    stroke-linecap="square" />
+                                                <path d="M12.5 25L12.5 6.25H17.5V25" stroke="#4798DE" stroke-width="2"
+                                                    stroke-linecap="square" />
+                                                <path d="M17.5 25V15H22.5V25" stroke="#4798DE" stroke-width="2"
+                                                    stroke-linecap="square" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                             <div class="main__products-price">
                                 <a class="main__products-price-buttons" href="#">В корзину</a>
-                                <div class="main__products-price-icons">
+                                <div class="main__products-price-icons-fullscreen">
                                     <a href="#">
                                         <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -444,11 +534,36 @@
                                             stroke-linecap="square" />
                                     </svg>
                                 </p>
-                                <h2 class="products__info-price">8000 грн</h2>
+                                <div class="main__products-price">
+                                    <h2 class="products__info-price">8000 грн</h2>
+                                    <div class="main__products-price-icons">
+                                        <a href="#">
+                                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.5007 21.875L10.9902 20.5262C5.62565 15.7544 2.08398 12.6073 2.08398 8.74489C2.08398 5.59775 4.60482 3.125 7.81315 3.125C9.62565 3.125 11.3652 3.95266 12.5007 5.26056C13.6361 3.95266 15.3757 3.125 17.1882 3.125C20.3965 3.125 22.9173 5.59775 22.9173 8.74489C22.9173 12.6073 19.3757 15.7544 14.0111 20.5364L12.5007 21.875Z"
+                                                    stroke="#4798DE" stroke-width="2" stroke-linecap="square" />
+                                            </svg>
+                                        </a>
+                                        <a href="#">
+                                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5 25H25" stroke="#4798DE" stroke-width="2"
+                                                    stroke-linecap="square" />
+                                                <path d="M7.5 25L7.5 11.25H12.5V25" stroke="#4798DE" stroke-width="2"
+                                                    stroke-linecap="square" />
+                                                <path d="M12.5 25L12.5 6.25H17.5V25" stroke="#4798DE" stroke-width="2"
+                                                    stroke-linecap="square" />
+                                                <path d="M17.5 25V15H22.5V25" stroke="#4798DE" stroke-width="2"
+                                                    stroke-linecap="square" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                             <div class="main__products-price">
                                 <a class="main__products-price-buttons" href="#">В корзину</a>
-                                <div class="main__products-price-icons">
+                                <div class="main__products-price-icons-fullscreen">
                                     <a href="#">
                                         <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -716,7 +831,7 @@
         <div class="container grid">
             <div class="footer__social">
                 <a class="footer__logo" href="#">
-                    <img src="/image/logo.png" alt="Logo">
+                    <img class="footer__logo-img" src="/image/logo.png" alt="Logo">
                 </a>
                 <div class="footer__social-items">
                     <p class="footer__social-text">Мы в социальных сетях</p>
@@ -796,6 +911,12 @@
                     и специальных предложениях.</p>
             </div>
         </div>
+        <!-- <div class="foooter__arrow">
+            <svg width="22" height="27" viewBox="0 0 22 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.64844 12.5171L11.2667 2.84277L20.3506 12.5171" stroke="#4798DE" stroke-width="3" />
+                <line x1="11.166" y1="2" x2="11.166" y2="26.8889" stroke="#4798DE" stroke-width="3" />
+            </svg>
+        </div> -->
     </footer>
 
     <script src="scripts/script.js"></script>
